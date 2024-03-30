@@ -237,7 +237,7 @@
 	}
 
 	path {
-		transition: 0.5s ease-out;
+		transition: fill 0.5s ease-out;
 		stroke: white;
 	}
 
