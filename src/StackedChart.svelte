@@ -3,6 +3,7 @@
 	import { csv } from 'd3-fetch';
 	import * as d3 from 'd3';
 	import MiniSockImage from './MiniSockImage.svelte';
+	import { COLORS, DARK_GRAY } from './constants';
 
 	let data = [];
 	$: selectedCategory = 'Heel';
@@ -24,16 +25,6 @@
 			d3.select(gx).selectAll('.tick line').remove();
 		}
 	}
-
-	const lightGray = '#D6D2CB';
-	const darkGray = '#7F7B74';
-	const colors = {
-		Heel: '#F0439F',
-		Toe: '#FFB629',
-		Colorwork: '#2B5C63',
-		'Fabric / Stitches': '#21ACCA',
-		'Sock Method': '#CB82DA',
-	};
 
 	const container_width = 1000;
 	const container_height = 600;
@@ -97,7 +88,7 @@
 				}))
 				.sort((a, b) => b.sum - a.sum);
 
-			const categoryColor = colors[selectedCategory];
+			const categoryColor = COLORS[selectedCategory];
 			const opacityStep = 1 / stackData.length;
 
 			const opacityMap = new Map();
@@ -175,7 +166,7 @@
 		{#each categories as cat}
 			<button
 				class:active={selectedCategory === cat}
-				style="--active-color: {colors[selectedCategory]};"
+				style="--active-color: {COLORS[selectedCategory]};"
 				on:click={() => {
 					selectedCategory = cat;
 					renderChart(selectedCategory);
@@ -216,7 +207,7 @@
 					class="x-axis"
 					transform={`translate(${margin.left}, ${height + margin.top})`}
 					bind:this={gx}
-					style={`font-size: 0.9em; color: ${darkGray}`}
+					style={`font-size: 0.9em; color: ${DARK_GRAY}`}
 				></g>
 			</svg>
 		{/if}

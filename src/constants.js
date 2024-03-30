@@ -8,5 +8,8 @@ export const COLORS = {
 
 export const ALL_COLORS = {
 	...COLORS,
-	Construction: '#39B596',
+	Construction: '#90E2CD',
 };
+
+export const LIGHT_GRAY = '#D6D2CB';
+export const DARK_GRAY = '#7F7B74';
