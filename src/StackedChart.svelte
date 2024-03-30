@@ -7,11 +7,12 @@
 	$: selectedCategory = 'Colorwork';
 	$: stackedAreas = [];
 	$: filteredData = [];
+	$: textLabels = [];
 
 	const container_width = 1000;
 	const container_height = 600;
 
-	const margin = { top: 20, right: 30, bottom: 30, left: 60 };
+	const margin = { top: 20, right: 150, bottom: 30, left: 60 };
 	const width = container_width - margin.left - margin.right;
 	const height = container_height - margin.top - margin.bottom;
 
@@ -103,16 +104,37 @@
 				})
 				.curve(d3.curveBasis);
 
-			stackData.map((layer) => console.log(layer));
-
 			stackedAreas = stackData.map((layer, i) => ({
 				path: areaGenerator(layer),
 				color: colors(layer.key),
 			}));
 
-			console.log('number of areas', stackedAreas.length);
+			const top3Areas = stackData
+				.map((layer, i) => ({
+					area: layer,
+					sum: d3.sum(layer, (d) => d[1] - d[0]),
+				}))
+				.sort((a, b) => b.sum - a.sum);
 
-			console.log('stacked areas', stackedAreas);
+			console.log('top3 areas', top3Areas);
+
+			let midpoints = top3Areas.map(({ area }, i) => {
+				let lastArea = area[area.length - 1];
+				return (lastArea[0] + lastArea[1]) / 2;
+			});
+
+			// only show labels when area height > threshold
+			textLabels = top3Areas
+				.filter(({ area }) => {
+					let lastArea = area[area.length - 1];
+					return lastArea[1] - lastArea[0] > 80;
+				})
+				.map(({ area }, i) => ({
+					label: area.key,
+					x: width + 65,
+					y: y(midpoints[i]) + margin.top,
+					color: colors(area.key),
+				}));
 		}
 	};
 </script>
@@ -137,11 +159,24 @@
 					/>
 				{/each}
 			</g>
+			{#each textLabels as { label, x, y, color }}
+				<text
+					x={x}
+					y={y}
+					fill="black"
+					text-anchor="start"
+				>
+					{label}
+				</text>
+			{/each}
 		</svg>
 	{/if}
 </div>
 
 <style>
+	text {
+		font-family: Helvetica, sans-serif;
+	}
 	.x-axis line,
 	.x-axis path {
 		fill: none;
