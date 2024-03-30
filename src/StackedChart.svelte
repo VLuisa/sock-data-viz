@@ -4,7 +4,7 @@
 	import * as d3 from 'd3';
 
 	let data = [];
-	$: selectedCategory = 'Colorwork';
+	$: selectedCategory = 'Heel technique';
 	$: stackedAreas = [];
 	$: filteredData = [];
 	$: textLabels = [];
@@ -31,8 +31,9 @@
 		'Toe Technique': '#FFB629',
 		Construction: '#90E2CD',
 		Colorwork: '#2B5C63',
-		'Fabric Characteristics': '#B4F0F0',
+		'Fabric Characteristics': '#21ACCA',
 		'Sock Techniques': '#CB82DA',
+		'Regional / Ethnic Styles': '#000000',
 	};
 
 	const container_width = 1000;
@@ -57,9 +58,9 @@
 		renderChart(selectedCategory);
 	});
 
-	$: {
-		renderChart(selectedCategory);
-	}
+	// $: {
+	// 	renderChart(selectedCategory);
+	// }
 
 	let renderChart = (selectedCategory) => {
 		filteredData = data.filter((d) => d.category === selectedCategory);
@@ -169,12 +170,21 @@
 	};
 </script>
 
-<h1>Current category {selectedCategory}</h1>
-<select bind:value={selectedCategory}>
+<div class="tab-container">
 	{#each categories as cat}
-		<option value={cat}>{cat}</option>
+		<button
+			class:active={selectedCategory === cat}
+			style="--active-color: {colors[selectedCategory]}; }"
+			on:click={() => {
+				selectedCategory = cat;
+				renderChart(selectedCategory);
+			}}
+			class="tab"
+		>
+			{cat}
+		</button>
 	{/each}
-</select>
+</div>
 <div>
 	{#if data.length > 0 && filteredData.length > 0}
 		<svg
@@ -209,6 +219,7 @@
 		</svg>
 	{/if}
 </div>
+*/
 
 <style>
 	text {
@@ -217,5 +228,34 @@
 
 	path {
 		transition: 0.3s ease-out;
+		stroke: white;
+	}
+
+	.tab-container {
+		display: flex;
+	}
+
+	button {
+		padding: 10px 20px;
+		margin: 0 5px;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+		font-size: 16px;
+		color: darkgray;
+		border-radius: 10px;
+	}
+
+	.tab {
+		display: inline-block;
+		padding: 10px 20px;
+		cursor: pointer;
+		font-size: 16px;
+		position: relative;
+	}
+
+	.active {
+		color: black;
+		background-color: var(--active-color);
 	}
 </style>
