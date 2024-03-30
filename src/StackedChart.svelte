@@ -24,6 +24,7 @@
 				count: +tag_count,
 			}),
 		);
+		renderChart(selectedCategory);
 	});
 
 	$: {
