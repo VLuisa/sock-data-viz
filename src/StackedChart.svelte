@@ -50,14 +50,6 @@
 		'Fabric / Stitches',
 		'Construction',
 	];
-	$: console.log(selectedCategory);
-
-	let cleanTag = (tag) => {
-		return tag
-			.split('-')
-			.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-			.join(' ');
-	};
 
 	onMount(async () => {
 		data = await csv(
@@ -71,10 +63,6 @@
 		);
 		renderChart(selectedCategory);
 	});
-
-	// $: {
-	// 	renderChart(selectedCategory);
-	// }
 
 	let renderChart = (selectedCategory) => {
 		filteredData = data.filter((d) => d.category === selectedCategory);
@@ -240,6 +228,7 @@
 		display: flex;
 		flex-flow: column nowrap;
 		align-items: center;
+		width: 100%;
 	}
 	text {
 		font-family: Helvetica, sans-serif;
@@ -253,7 +242,7 @@
 	.tab-container {
 		display: flex;
 		justify-content: stretch;
-		width: 1000px;
+		width: 1000px; /* should match container width */
 	}
 
 	button {
@@ -263,7 +252,7 @@
 		background-color: transparent;
 		cursor: pointer;
 		font-size: 16px;
-		color: darkgray;
+		color: #7f7b74; /* dark gray from style*/
 		border-radius: 10px;
 	}
 
