@@ -1,8 +1,0 @@
-{
-	"svelteAllowShorthand": false,
-	"useTabs": true,
-	"singleQuote": true,
-	"arrowParens": "always",
-	"singleAttributePerLine": true,
-	"bracketSameLine": false
-}
