@@ -8,9 +8,12 @@
 	$: stackedAreas = [];
 	$: filteredData = [];
 
+	const container_width = 1000;
+	const container_height = 600;
+
 	const margin = { top: 20, right: 30, bottom: 30, left: 60 };
-	const width = 600 - margin.left - margin.right;
-	const height = 400 - margin.top - margin.bottom;
+	const width = container_width - margin.left - margin.right;
+	const height = container_height - margin.top - margin.bottom;
 
 	$: categories = [...new Set(data.map((d) => d.category))];
 
@@ -46,8 +49,6 @@
 
 			const colors = d3.scaleOrdinal(d3.schemeCategory10);
 
-			console.log('filtered data', filteredData);
-
 			const stackData = d3
 				.stack()
 				.keys(d3.union(filteredData.map((d) => d.tag)))
@@ -76,7 +77,8 @@
 			let highestSum = 0;
 
 			// calculate "tallest" year for y-axis
-			for (const [sum] of nestedData.entries()) {
+			// need "year" here to deconstruct entries correctly
+			for (const [year, sum] of nestedData.entries()) {
 				if (sum > highestSum) {
 					highestSum = sum;
 				}
@@ -102,6 +104,7 @@
 				.curve(d3.curveBasis);
 
 			stackData.map((layer) => console.log(layer));
+
 			stackedAreas = stackData.map((layer, i) => ({
 				path: areaGenerator(layer),
 				color: colors(layer.key),
@@ -123,8 +126,8 @@
 <div>
 	{#if data.length > 0 && filteredData.length > 0}
 		<svg
-			width="1000"
-			height="1000"
+			width={container_width}
+			height={container_height}
 		>
 			<g transform={`translate(${margin.left},${margin.top})`}>
 				{#each stackedAreas as { path, color }, i}
