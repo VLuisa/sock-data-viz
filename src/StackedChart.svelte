@@ -4,7 +4,7 @@
 	import * as d3 from 'd3';
 
 	let data = [];
-	$: selectedCategory = 'Heel technique';
+	$: selectedCategory = 'Heel';
 	$: stackedAreas = [];
 	$: filteredData = [];
 	$: textLabels = [];
@@ -27,13 +27,12 @@
 	const lightGray = '#D6D2CB';
 	const darkGray = '#7F7B74';
 	const colors = {
-		'Heel technique': '#F0439F',
-		'Toe Technique': '#FFB629',
-		Construction: '#90E2CD',
+		Heel: '#F0439F',
+		Toe: '#FFB629',
+		Construction: '#39B596',
 		Colorwork: '#2B5C63',
-		'Fabric Characteristics': '#21ACCA',
-		'Sock Techniques': '#CB82DA',
-		'Regional / Ethnic Styles': '#000000',
+		'Fabric / Stitches': '#21ACCA',
+		'Sock Method': '#CB82DA',
 	};
 
 	const container_width = 1000;
@@ -43,16 +42,31 @@
 	const width = container_width - margin.left - margin.right;
 	const height = container_height - margin.top - margin.bottom;
 
-	$: categories = [...new Set(data.map((d) => d.category))];
+	$: categories = [
+		'Heel',
+		'Toe',
+		'Sock Method',
+		'Colorwork',
+		'Fabric / Stitches',
+		'Construction',
+	];
+	$: console.log(selectedCategory);
+
+	let cleanTag = (tag) => {
+		return tag
+			.split('-')
+			.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+			.join(' ');
+	};
 
 	onMount(async () => {
 		data = await csv(
 			'../data/tags_data_for_d3.csv',
-			({ category, year, tags, tag_count }) => ({
+			({ category, year, tag_count, tags, clean_name }) => ({
 				category,
 				year: +year,
-				tag: tags,
 				count: +tag_count,
+				tag: clean_name,
 			}),
 		);
 		renderChart(selectedCategory);
@@ -84,12 +98,8 @@
 				})(
 				d3.index(
 					filteredData,
-					(d) => {
-						return d.year;
-					},
-					(d) => {
-						return d.tag;
-					},
+					(d) => d.year,
+					(d) => d.tag,
 				),
 			);
 
@@ -170,58 +180,67 @@
 	};
 </script>
 
-<div class="tab-container">
-	{#each categories as cat}
-		<button
-			class:active={selectedCategory === cat}
-			style="--active-color: {colors[selectedCategory]}; }"
-			on:click={() => {
-				selectedCategory = cat;
-				renderChart(selectedCategory);
-			}}
-			class="tab"
-		>
-			{cat}
-		</button>
-	{/each}
-</div>
-<div>
-	{#if data.length > 0 && filteredData.length > 0}
-		<svg
-			width={container_width}
-			height={container_height}
-		>
-			<g transform={`translate(${margin.left},${margin.top})`}>
-				{#each stackedAreas as { path, color, opacity }, i}
-					<path
-						d={path}
+<div class="chart-container">
+	<div
+		class="tab-container"
+		style="width: {container_width}"
+	>
+		{#each categories as cat}
+			<button
+				class:active={selectedCategory === cat}
+				style="--active-color: {colors[selectedCategory]}; }"
+				on:click={() => {
+					selectedCategory = cat;
+					renderChart(selectedCategory);
+				}}
+				class="tab"
+			>
+				{cat}
+			</button>
+		{/each}
+	</div>
+	<div>
+		{#if data.length > 0 && filteredData.length > 0}
+			<svg
+				width={container_width}
+				height={container_height}
+			>
+				<g transform={`translate(${margin.left},${margin.top})`}>
+					{#each stackedAreas as { path, color, opacity }, i}
+						<path
+							d={path}
+							fill={color}
+							opacity={opacity}
+						/>
+					{/each}
+				</g>
+				{#each textLabels as { label, x, y, color }}
+					<text
+						x={x}
+						y={y}
 						fill={color}
-						opacity={opacity}
-					/>
+						text-anchor="start"
+					>
+						{label}
+					</text>
 				{/each}
-			</g>
-			{#each textLabels as { label, x, y, color }}
-				<text
-					x={x}
-					y={y}
-					fill={color}
-					text-anchor="start"
-				>
-					{label}
-				</text>
-			{/each}
-			<g
-				class="x-axis"
-				transform={`translate(${margin.left}, ${height + margin.top})`}
-				bind:this={gx}
-				style={`font-size: 0.9em; color: ${darkGray}`}
-			></g>
-		</svg>
-	{/if}
+				<g
+					class="x-axis"
+					transform={`translate(${margin.left}, ${height + margin.top})`}
+					bind:this={gx}
+					style={`font-size: 0.9em; color: ${darkGray}`}
+				></g>
+			</svg>
+		{/if}
+	</div>
 </div>
-*/
 
 <style>
+	.chart-container {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
 	text {
 		font-family: Helvetica, sans-serif;
 	}
@@ -233,6 +252,8 @@
 
 	.tab-container {
 		display: flex;
+		justify-content: stretch;
+		width: 1000px;
 	}
 
 	button {
@@ -252,6 +273,7 @@
 		cursor: pointer;
 		font-size: 16px;
 		position: relative;
+		width: 100%;
 	}
 
 	.active {
