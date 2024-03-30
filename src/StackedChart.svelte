@@ -9,6 +9,14 @@
 	$: filteredData = [];
 	$: textLabels = [];
 
+	const colors = {
+		'Heel technique': '#F0439F',
+		'Toe Technique': '#FFB629',
+		Construction: '#90E2CD',
+		Colorwork: '#2B5C63',
+		'Fabric Characteristics': '#B4F0F0',
+	};
+
 	const container_width = 1000;
 	const container_height = 600;
 
@@ -48,7 +56,7 @@
 				.domain(d3.extent(filteredData, (d) => d.year))
 				.range([0, width]);
 
-			const colors = d3.scaleOrdinal(d3.schemeCategory10);
+			// const colors = d3.scaleOrdinal(d3.schemeCategory10);
 
 			const stackData = d3
 				.stack()
@@ -68,7 +76,21 @@
 				),
 			);
 
-			// group data by year and sum tag_count for each year
+			const topAreas = stackData
+				.map((layer, i) => ({
+					area: layer,
+					sum: d3.sum(layer, (d) => d[1] - d[0]),
+				}))
+				.sort((a, b) => b.sum - a.sum);
+
+			const categoryColor = colors[selectedCategory];
+			const opacityStep = 1 / stackData.length;
+
+			const opacityMap = new Map();
+			topAreas.forEach((area, i) => {
+				opacityMap.set(area.area.key, 1 - i * opacityStep);
+			});
+
 			const nestedData = d3.rollup(
 				filteredData,
 				(v) => d3.sum(v, (d) => d.count),
@@ -106,25 +128,17 @@
 
 			stackedAreas = stackData.map((layer, i) => ({
 				path: areaGenerator(layer),
-				color: colors(layer.key),
+				color: categoryColor,
+				opacity: opacityMap.get(layer.key),
 			}));
 
-			const top3Areas = stackData
-				.map((layer, i) => ({
-					area: layer,
-					sum: d3.sum(layer, (d) => d[1] - d[0]),
-				}))
-				.sort((a, b) => b.sum - a.sum);
-
-			console.log('top3 areas', top3Areas);
-
-			let midpoints = top3Areas.map(({ area }, i) => {
+			let midpoints = topAreas.map(({ area }, i) => {
 				let lastArea = area[area.length - 1];
 				return (lastArea[0] + lastArea[1]) / 2;
 			});
 
 			// only show labels when area height > threshold
-			textLabels = top3Areas
+			textLabels = topAreas
 				.filter(({ area }) => {
 					let lastArea = area[area.length - 1];
 					return lastArea[1] - lastArea[0] > 80;
@@ -133,7 +147,7 @@
 					label: area.key,
 					x: width + 65,
 					y: y(midpoints[i]) + margin.top,
-					color: colors(area.key),
+					color: categoryColor,
 				}));
 		}
 	};
@@ -152,10 +166,11 @@
 			height={container_height}
 		>
 			<g transform={`translate(${margin.left},${margin.top})`}>
-				{#each stackedAreas as { path, color }, i}
+				{#each stackedAreas as { path, color, opacity }, i}
 					<path
 						d={path}
 						fill={color}
+						opacity={opacity}
 					/>
 				{/each}
 			</g>
@@ -163,7 +178,7 @@
 				<text
 					x={x}
 					y={y}
-					fill="black"
+					fill={color}
 					text-anchor="start"
 				>
 					{label}
