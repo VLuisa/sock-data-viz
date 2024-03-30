@@ -9,12 +9,25 @@
 	$: filteredData = [];
 	$: textLabels = [];
 
+	$: gx = null;
+	$: x = null;
+	$: {
+		if (x != null && gx != null) {
+			const formatYear = d3.format('d');
+			d3.select(gx)
+				.call(d3.axisBottom(x).tickFormat(formatYear))
+				.select('.domain')
+				.attr('opacity', '0.2');
+		}
+	}
+
 	const colors = {
 		'Heel technique': '#F0439F',
 		'Toe Technique': '#FFB629',
 		Construction: '#90E2CD',
 		Colorwork: '#2B5C63',
 		'Fabric Characteristics': '#B4F0F0',
+		'Sock Techniques': '#21ACCA',
 	};
 
 	const container_width = 1000;
@@ -51,12 +64,10 @@
 		}
 
 		if (filteredData.length > 0) {
-			const x = d3
+			x = d3
 				.scaleLinear()
 				.domain(d3.extent(filteredData, (d) => d.year))
 				.range([0, width]);
-
-			// const colors = d3.scaleOrdinal(d3.schemeCategory10);
 
 			const stackData = d3
 				.stack()
@@ -184,6 +195,11 @@
 					{label}
 				</text>
 			{/each}
+			<g
+				class="x-axis"
+				transform={`translate(${margin.left}, ${height + margin.top})`}
+				bind:this={gx}
+			></g>
 		</svg>
 	{/if}
 </div>
