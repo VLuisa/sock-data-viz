@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { csv } from 'd3-fetch';
 	import * as d3 from 'd3';
+	import MiniSockImage from './MiniSockImage.svelte';
 
 	let data = [];
 	$: selectedCategory = 'Heel';
@@ -174,7 +175,7 @@
 		{#each categories as cat}
 			<button
 				class:active={selectedCategory === cat}
-				style="--active-color: {colors[selectedCategory]}; }"
+				style="--active-color: {colors[selectedCategory]};"
 				on:click={() => {
 					selectedCategory = cat;
 					renderChart(selectedCategory);
@@ -185,7 +186,8 @@
 			</button>
 		{/each}
 	</div>
-	<div>
+
+	<div class="component-body">
 		{#if data.length > 0 && filteredData.length > 0}
 			<svg
 				width={container_width}
@@ -218,6 +220,7 @@
 				></g>
 			</svg>
 		{/if}
+		<MiniSockImage category={selectedCategory} />
 	</div>
 </div>
 
@@ -228,12 +231,13 @@
 		align-items: center;
 		width: 100%;
 	}
+
 	text {
 		font-family: Helvetica, sans-serif;
 	}
 
 	path {
-		transition: 0.3s ease-out;
+		transition: 0.5s ease-out;
 		stroke: white;
 	}
 
@@ -252,6 +256,8 @@
 		font-size: 16px;
 		color: #7f7b74; /* dark gray from style*/
 		border-radius: 10px;
+		border: 1px solid #7f7b74;
+		transition: 0.3s ease-out;
 	}
 
 	.tab {
@@ -264,7 +270,14 @@
 	}
 
 	.active {
-		color: black;
+		color: var(--white);
 		background-color: var(--active-color);
+		border: none;
+	}
+
+	.component-body {
+		display: flex;
+		flex-flow: row nowrap;
+		flex-direction: row-reverse;
 	}
 </style>

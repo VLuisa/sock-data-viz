@@ -2,9 +2,7 @@
 	import StackedChart from './StackedChart.svelte';
 </script>
 
-<div>
-	<StackedChart />
-</div>
+<StackedChart />
 
 <style>
 	/* Add any custom styles here */
