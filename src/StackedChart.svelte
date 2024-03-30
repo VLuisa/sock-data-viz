@@ -29,7 +29,6 @@
 	const colors = {
 		Heel: '#F0439F',
 		Toe: '#FFB629',
-		Construction: '#39B596',
 		Colorwork: '#2B5C63',
 		'Fabric / Stitches': '#21ACCA',
 		'Sock Method': '#CB82DA',
@@ -48,7 +47,6 @@
 		'Sock Method',
 		'Colorwork',
 		'Fabric / Stitches',
-		'Construction',
 	];
 
 	onMount(async () => {
