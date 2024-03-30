@@ -14,20 +14,25 @@
 	$: {
 		if (x != null && gx != null) {
 			const formatYear = d3.format('d');
+
 			d3.select(gx)
 				.call(d3.axisBottom(x).tickFormat(formatYear))
 				.select('.domain')
-				.attr('opacity', '0.2');
+				.attr('opacity', '0');
+
+			d3.select(gx).selectAll('.tick line').remove();
 		}
 	}
 
+	const lightGray = '#D6D2CB';
+	const darkGray = '#7F7B74';
 	const colors = {
 		'Heel technique': '#F0439F',
 		'Toe Technique': '#FFB629',
 		Construction: '#90E2CD',
 		Colorwork: '#2B5C63',
 		'Fabric Characteristics': '#B4F0F0',
-		'Sock Techniques': '#21ACCA',
+		'Sock Techniques': '#CB82DA',
 	};
 
 	const container_width = 1000;
@@ -199,6 +204,7 @@
 				class="x-axis"
 				transform={`translate(${margin.left}, ${height + margin.top})`}
 				bind:this={gx}
+				style={`font-size: 0.9em; color: ${darkGray}`}
 			></g>
 		</svg>
 	{/if}
@@ -208,17 +214,8 @@
 	text {
 		font-family: Helvetica, sans-serif;
 	}
-	.x-axis line,
-	.x-axis path {
-		fill: none;
-		stroke: #000;
-		shape-rendering: crispEdges;
-	}
 
-	.y-axis line,
-	.y-axis path {
-		fill: none;
-		stroke: #000;
-		shape-rendering: crispEdges;
+	path {
+		transition: 0.3s ease-out;
 	}
 </style>
