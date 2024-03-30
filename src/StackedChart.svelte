@@ -52,7 +52,7 @@
 
 	onMount(async () => {
 		data = await csv(
-			'../data/tags_data_for_d3.csv',
+			'/data/tags_data_for_d3.csv',
 			({ category, year, tag_count, tags, clean_name }) => ({
 				category,
 				year: +year,

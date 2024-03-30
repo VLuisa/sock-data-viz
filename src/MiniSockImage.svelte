@@ -1,9 +1,7 @@
 <script>
-	import { onMount } from 'svelte';
-	import { crossfade } from 'svelte/transition';
 	export let category;
 
-	const imagePath = '../img/';
+	const imagePath = '/img/';
 
 	const images = {
 		Heel: 'heel',
