@@ -3,10 +3,17 @@
 	import Matrix from './Matrix.svelte';
 </script>
 
-<Matrix />
+<main>
+	<Matrix />
 
-<!-- <StackedChart /> -->
+	<!-- <StackedChart /> -->
+</main>
 
 <style>
 	/* Add any custom styles here */
+	main {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
 </style>

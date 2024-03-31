@@ -1,111 +1,111 @@
-"row_number","permalink","difficulty_count","difficulty_average","tags","category","clean_name","favorites_count","yarn_weight_description","name","rating_average","rating_count","languages-name","generally_available"
-"1","hermiones-everyday-socks","8988",2.41733422340899,"top-cuff-down","Sock Method","Top cuff down",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400"
-"2","hermiones-everyday-socks","8988",2.41733422340899,"heel-flap","Heel","Heel flap",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400"
-"3","hermiones-everyday-socks","8988",2.41733422340899,"seamless","Construction","Seamless",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400"
-"4","hermiones-everyday-socks","8988",2.41733422340899,"textured","Fabric / Stitches","Textured",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400"
-"5","hermiones-everyday-socks","8988",2.41733422340899,"other-toe","Toe","Other toe",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400"
-"6","hermiones-everyday-socks","8988",2.41733422340899,"wide-toe","Toe","Wide toe",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400"
-"7","broken-seed-stitch-socks","1769",2.34708875070661,"top-cuff-down","Sock Method","Top cuff down",43685,"Fingering (14 wpi)","Broken Seed Stitch Socks",4.60971524288107,"1791",<chr>,"2010/10/01 00:00:00 -0400"
-"8","broken-seed-stitch-socks","1769",2.34708875070661,"textured","Fabric / Stitches","Textured",43685,"Fingering (14 wpi)","Broken Seed Stitch Socks",4.60971524288107,"1791",<chr>,"2010/10/01 00:00:00 -0400"
-"9","broken-seed-stitch-socks","1769",2.34708875070661,"stripes-colorwork","Colorwork","Stripes / Colorwork",43685,"Fingering (14 wpi)","Broken Seed Stitch Socks",4.60971524288107,"1791",<chr>,"2010/10/01 00:00:00 -0400"
-"10","rye-4","2364",2.28807106598985,"top-cuff-down","Sock Method","Top cuff down",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400"
-"11","rye-4","2364",2.28807106598985,"in-the-round","Construction","Worked in the round",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400"
-"12","rye-4","2364",2.28807106598985,"heel-flap","Heel","Heel flap",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400"
-"13","rye-4","2364",2.28807106598985,"ribbed","Fabric / Stitches","Ribbed / ribbing",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400"
-"14","rye-4","2364",2.28807106598985,"seamless","Construction","Seamless",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400"
-"15","rye-4","2364",2.28807106598985,"kitchener","Construction","Kitchener / Grafting",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400"
-"16","rye-4","2364",2.28807106598985,"textured","Fabric / Stitches","Textured",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400"
-"17","rye-4","2364",2.28807106598985,"gusset","Construction","Gusset",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400"
-"18","rye-4","2364",2.28807106598985,"short-rows","Construction","Short rows",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400"
-"19","kitty-ankle-socks","428",3.21261682242991,"ribbed","Fabric / Stitches","Ribbed / ribbing",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500"
-"20","kitty-ankle-socks","428",3.21261682242991,"toe-up","Sock Method","Toe up",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500"
-"21","kitty-ankle-socks","428",3.21261682242991,"short-row-heel","Heel","Short row heel",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500"
-"22","kitty-ankle-socks","428",3.21261682242991,"short-rows","Construction","Short rows",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500"
-"23","kitty-ankle-socks","428",3.21261682242991,"Intarsia","Colorwork","Intarsia",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500"
-"24","simple-skyp-socks","2953",2.35489332881815,"top-cuff-down","Sock Method","Top cuff down",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500"
-"25","simple-skyp-socks","2953",2.35489332881815,"in-the-round","Construction","Worked in the round",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500"
-"26","simple-skyp-socks","2953",2.35489332881815,"heel-flap","Heel","Heel flap",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500"
-"27","simple-skyp-socks","2953",2.35489332881815,"ribbed","Fabric / Stitches","Ribbed / ribbing",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500"
-"28","simple-skyp-socks","2953",2.35489332881815,"textured","Fabric / Stitches","Textured",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500"
-"29","simple-skyp-socks","2953",2.35489332881815,"wide-toe","Toe","Wide toe",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500"
-"30","vanilla-latte-socks","3671",2.2111141378371,"top-cuff-down","Sock Method","Top cuff down",30578,"Fingering (14 wpi)","Vanilla Latte Socks",4.68955538016311,"3801",<chr>,"2012/04/21 16:39:49 -0400"
-"31","vanilla-latte-socks","3671",2.2111141378371,"heel-flap","Heel","Heel flap",30578,"Fingering (14 wpi)","Vanilla Latte Socks",4.68955538016311,"3801",<chr>,"2012/04/21 16:39:49 -0400"
-"32","rose-city-rollers","2804",2.20542082738944,"top-cuff-down","Sock Method","Top cuff down",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400"
-"33","rose-city-rollers","2804",2.20542082738944,"in-the-round","Construction","Worked in the round",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400"
-"34","rose-city-rollers","2804",2.20542082738944,"heel-flap","Heel","Heel flap",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400"
-"35","rose-city-rollers","2804",2.20542082738944,"kitchener","Construction","Kitchener / Grafting",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400"
-"36","rose-city-rollers","2804",2.20542082738944,"gusset","Construction","Gusset",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400"
-"37","monkey-socks","8359",3.07620528771384,"top-cuff-down","Sock Method","Top cuff down",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500"
-"38","monkey-socks","8359",3.07620528771384,"in-the-round","Construction","Worked in the round",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500"
-"39","monkey-socks","8359",3.07620528771384,"heel-flap","Heel","Heel flap",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500"
-"40","monkey-socks","8359",3.07620528771384,"kitchener","Construction","Kitchener / Grafting",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500"
-"41","monkey-socks","8359",3.07620528771384,"one-piece","Construction","One-piece",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500"
-"42","monkey-socks","8359",3.07620528771384,"lace","Fabric / Stitches","Lace",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500"
-"43","monkey-socks","8359",3.07620528771384,"textured","Fabric / Stitches","Textured",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500"
-"44","monkey-socks","8359",3.07620528771384,"wide-toe","Toe","Wide toe",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500"
-"45","monkey-socks","8359",3.07620528771384,"eyelets","Fabric / Stitches","Eyelets",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500"
-"46","rye-light","1348",2.48293768545994,"top-cuff-down","Sock Method","Top cuff down",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"47","rye-light","1348",2.48293768545994,"in-the-round","Construction","Worked in the round",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"48","rye-light","1348",2.48293768545994,"heel-flap","Heel","Heel flap",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"49","rye-light","1348",2.48293768545994,"ribbed","Fabric / Stitches","Ribbed / ribbing",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"50","rye-light","1348",2.48293768545994,"seamless","Construction","Seamless",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"51","rye-light","1348",2.48293768545994,"kitchener","Construction","Kitchener / Grafting",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"52","rye-light","1348",2.48293768545994,"one-piece","Construction","One-piece",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"53","rye-light","1348",2.48293768545994,"textured","Fabric / Stitches","Textured",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"54","rye-light","1348",2.48293768545994,"gusset","Construction","Gusset",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"55","rye-light","1348",2.48293768545994,"short-rows","Construction","Short rows",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500"
-"56","vanilla-is-the-new-black","860",2.60813953488372,"top-cuff-down","Sock Method","Top cuff down",24380,"Fingering (14 wpi)","Vanilla is the New Black",4.70704845814978,"908",<chr>,"2016/02/24 20:10:36 -0500"
-"57","vanilla-is-the-new-black","860",2.60813953488372,"other-toe","Toe","Other toe",24380,"Fingering (14 wpi)","Vanilla is the New Black",4.70704845814978,"908",<chr>,"2016/02/24 20:10:36 -0500"
-"58","vanilla-is-the-new-black","860",2.60813953488372,"other-heel","Heel","Other heel",24380,"Fingering (14 wpi)","Vanilla is the New Black",4.70704845814978,"908",<chr>,"2016/02/24 20:10:36 -0500"
-"59","vanilla-is-the-new-black","860",2.60813953488372,"reversible","Fabric / Stitches","Reversible",24380,"Fingering (14 wpi)","Vanilla is the New Black",4.70704845814978,"908",<chr>,"2016/02/24 20:10:36 -0500"
-"60","my-cup-of-tea-socks","936",3.0758547008547,"top-cuff-down","Sock Method","Top cuff down",23455,"Fingering (14 wpi)","My Cup of Tea Socks",4.60061919504644,"969",<chr>,"2012/12/10 20:03:20 -0500"
-"61","my-cup-of-tea-socks","936",3.0758547008547,"in-the-round","Construction","Worked in the round",23455,"Fingering (14 wpi)","My Cup of Tea Socks",4.60061919504644,"969",<chr>,"2012/12/10 20:03:20 -0500"
-"62","my-cup-of-tea-socks","936",3.0758547008547,"heel-flap","Heel","Heel flap",23455,"Fingering (14 wpi)","My Cup of Tea Socks",4.60061919504644,"969",<chr>,"2012/12/10 20:03:20 -0500"
-"63","my-cup-of-tea-socks","936",3.0758547008547,"kitchener","Construction","Kitchener / Grafting",23455,"Fingering (14 wpi)","My Cup of Tea Socks",4.60061919504644,"969",<chr>,"2012/12/10 20:03:20 -0500"
-"64","blueberry-waffle-socks","1807",2.02268954067515,"top-cuff-down","Sock Method","Top cuff down",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500"
-"65","blueberry-waffle-socks","1807",2.02268954067515,"in-the-round","Construction","Worked in the round",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500"
-"66","blueberry-waffle-socks","1807",2.02268954067515,"heel-flap","Heel","Heel flap",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500"
-"67","blueberry-waffle-socks","1807",2.02268954067515,"ribbed","Fabric / Stitches","Ribbed / ribbing",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500"
-"68","blueberry-waffle-socks","1807",2.02268954067515,"textured","Fabric / Stitches","Textured",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500"
-"69","skew","2026",4.46199407699901,"in-the-round","Construction","Worked in the round",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500"
-"70","skew","2026",4.46199407699901,"toe-up","Sock Method","Toe up",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500"
-"71","skew","2026",4.46199407699901,"kitchener","Construction","Kitchener / Grafting",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500"
-"72","skew","2026",4.46199407699901,"short-rows","Construction","Short rows",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500"
-"73","skew","2026",4.46199407699901,"bias","Construction","Bias",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500"
-"74","im-so-basic-socks","600",2.395,"top-cuff-down","Sock Method","Top cuff down",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400"
-"75","im-so-basic-socks","600",2.395,"in-the-round","Construction","Worked in the round",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400"
-"76","im-so-basic-socks","600",2.395,"heel-flap","Heel","Heel flap",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400"
-"77","im-so-basic-socks","600",2.395,"seamless","Construction","Seamless",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400"
-"78","im-so-basic-socks","600",2.395,"kitchener","Construction","Kitchener / Grafting",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400"
-"79","im-so-basic-socks","600",2.395,"one-piece","Construction","One-piece",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400"
-"80","im-so-basic-socks","600",2.395,"gusset","Construction","Gusset",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400"
-"81","basic-ribbed-socks","2847",2.43238496663154,"top-cuff-down","Sock Method","Top cuff down",21657,"Fingering (14 wpi)","Basic Ribbed Socks",4.47961092405537,"2673",<chr>,"2006/04/01 00:00:00 -0500"
-"82","basic-ribbed-socks","2847",2.43238496663154,"in-the-round","Construction","Worked in the round",21657,"Fingering (14 wpi)","Basic Ribbed Socks",4.47961092405537,"2673",<chr>,"2006/04/01 00:00:00 -0500"
-"83","basic-ribbed-socks","2847",2.43238496663154,"heel-flap","Heel","Heel flap",21657,"Fingering (14 wpi)","Basic Ribbed Socks",4.47961092405537,"2673",<chr>,"2006/04/01 00:00:00 -0500"
-"84","basic-ribbed-socks","2847",2.43238496663154,"ribbed","Fabric / Stitches","Ribbed / ribbing",21657,"Fingering (14 wpi)","Basic Ribbed Socks",4.47961092405537,"2673",<chr>,"2006/04/01 00:00:00 -0500"
-"85","business-casual","979",3.23799795709908,"top-cuff-down","Sock Method","Top cuff down",21279,"Fingering (14 wpi)","Business Casual",4.56987115956392,"1009",<chr>,"2011/12/20 17:12:31 -0500"
-"86","business-casual","979",3.23799795709908,"heel-flap","Heel","Heel flap",21279,"Fingering (14 wpi)","Business Casual",4.56987115956392,"1009",<chr>,"2011/12/20 17:12:31 -0500"
-"87","business-casual","979",3.23799795709908,"cables","Fabric / Stitches","Cables",21279,"Fingering (14 wpi)","Business Casual",4.56987115956392,"1009",<chr>,"2011/12/20 17:12:31 -0500"
-"88","color-palette-socks-2","276",2.3731884057971,"top-cuff-down","Sock Method","Top cuff down",21128,"Light Fingering","Color Palette Socks",4.85526315789474,"304",<chr>,"2020/11/12 08:30:57 -0500"
-"89","color-palette-socks-2","276",2.3731884057971,"short-row-heel","Heel","Short row heel",21128,"Light Fingering","Color Palette Socks",4.85526315789474,"304",<chr>,"2020/11/12 08:30:57 -0500"
-"90","color-palette-socks-2","276",2.3731884057971,"gusset","Construction","Gusset",21128,"Light Fingering","Color Palette Socks",4.85526315789474,"304",<chr>,"2020/11/12 08:30:57 -0500"
-"91","color-palette-socks-2","276",2.3731884057971,"stripes-colorwork","Colorwork","Stripes / Colorwork",21128,"Light Fingering","Color Palette Socks",4.85526315789474,"304",<chr>,"2020/11/12 08:30:57 -0500"
-"92","owlie-socks","826",3.82929782082324,"top-cuff-down","Sock Method","Top cuff down",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500"
-"93","owlie-socks","826",3.82929782082324,"in-the-round","Construction","Worked in the round",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500"
-"94","owlie-socks","826",3.82929782082324,"heel-flap","Heel","Heel flap",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500"
-"95","owlie-socks","826",3.82929782082324,"ribbed","Fabric / Stitches","Ribbed / ribbing",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500"
-"96","owlie-socks","826",3.82929782082324,"kitchener","Construction","Kitchener / Grafting",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500"
-"97","owlie-socks","826",3.82929782082324,"cables","Fabric / Stitches","Cables",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500"
-"98","owlie-socks","826",3.82929782082324,"gusset","Construction","Gusset",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500"
-"99","owlie-socks","826",3.82929782082324,"twisted-stitches","Fabric / Stitches","Twisted stitches",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500"
-"100","petty-harbour","1392",2.32758620689655,"top-cuff-down","Sock Method","Top cuff down",21019,"Fingering (14 wpi)","Petty Harbour",4.71890372452565,"1423",<chr>,"2014/09/11 23:53:17 -0400"
-"101","petty-harbour","1392",2.32758620689655,"in-the-round","Construction","Worked in the round",21019,"Fingering (14 wpi)","Petty Harbour",4.71890372452565,"1423",<chr>,"2014/09/11 23:53:17 -0400"
-"102","petty-harbour","1392",2.32758620689655,"heel-flap","Heel","Heel flap",21019,"Fingering (14 wpi)","Petty Harbour",4.71890372452565,"1423",<chr>,"2014/09/11 23:53:17 -0400"
-"103","petty-harbour","1392",2.32758620689655,"textured","Fabric / Stitches","Textured",21019,"Fingering (14 wpi)","Petty Harbour",4.71890372452565,"1423",<chr>,"2014/09/11 23:53:17 -0400"
-"104","how-i-make-my-socks","1153",2.40242844752819,"top-cuff-down","Sock Method","Top cuff down",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,""
-"105","how-i-make-my-socks","1153",2.40242844752819,"in-the-round","Construction","Worked in the round",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,""
-"106","how-i-make-my-socks","1153",2.40242844752819,"heel-flap","Heel","Heel flap",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,""
-"107","how-i-make-my-socks","1153",2.40242844752819,"seamless","Construction","Seamless",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,""
-"108","how-i-make-my-socks","1153",2.40242844752819,"kitchener","Construction","Kitchener / Grafting",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,""
-"109","how-i-make-my-socks","1153",2.40242844752819,"one-piece","Construction","One-piece",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,""
-"110","how-i-make-my-socks","1153",2.40242844752819,"gusset","Construction","Gusset",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,""
+"","permalink","difficulty_count","difficulty_average","tags","category","clean_name","favorites_count","yarn_weight_description","name","rating_average","rating_count","languages-name","generally_available","tag_freq","order_no"
+"1","hermiones-everyday-socks","8988",2.41733422340899,"top-cuff-down","Sock Method","Top cuff down",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400",18,1
+"2","hermiones-everyday-socks","8988",2.41733422340899,"heel-flap","Heel","Heel flap",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400",15,1
+"3","hermiones-everyday-socks","8988",2.41733422340899,"seamless","Construction","Seamless",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400",5,1
+"4","hermiones-everyday-socks","8988",2.41733422340899,"textured","Fabric / Stitches","Textured",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400",8,1
+"5","hermiones-everyday-socks","8988",2.41733422340899,"other-toe","Toe","Other toe",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400",2,1
+"6","hermiones-everyday-socks","8988",2.41733422340899,"wide-toe","Toe","Wide toe",83612,"Fingering (14 wpi)","Hermione's Everyday Socks",4.66062459052195,"9158",<chr>,"2009/07/09 11:36:45 -0400",3,1
+"7","broken-seed-stitch-socks","1769",2.34708875070661,"top-cuff-down","Sock Method","Top cuff down",43685,"Fingering (14 wpi)","Broken Seed Stitch Socks",4.60971524288107,"1791",<chr>,"2010/10/01 00:00:00 -0400",18,2
+"8","broken-seed-stitch-socks","1769",2.34708875070661,"textured","Fabric / Stitches","Textured",43685,"Fingering (14 wpi)","Broken Seed Stitch Socks",4.60971524288107,"1791",<chr>,"2010/10/01 00:00:00 -0400",8,2
+"9","broken-seed-stitch-socks","1769",2.34708875070661,"stripes-colorwork","Colorwork","Stripes / Colorwork",43685,"Fingering (14 wpi)","Broken Seed Stitch Socks",4.60971524288107,"1791",<chr>,"2010/10/01 00:00:00 -0400",2,2
+"10","rye-4","2364",2.28807106598985,"top-cuff-down","Sock Method","Top cuff down",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400",18,3
+"11","rye-4","2364",2.28807106598985,"in-the-round","Construction","Worked in the round",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400",13,3
+"12","rye-4","2364",2.28807106598985,"heel-flap","Heel","Heel flap",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400",15,3
+"13","rye-4","2364",2.28807106598985,"ribbed","Fabric / Stitches","Ribbed / ribbing",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400",7,3
+"14","rye-4","2364",2.28807106598985,"seamless","Construction","Seamless",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400",5,3
+"15","rye-4","2364",2.28807106598985,"kitchener","Construction","Kitchener / Grafting",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400",9,3
+"16","rye-4","2364",2.28807106598985,"textured","Fabric / Stitches","Textured",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400",8,3
+"17","rye-4","2364",2.28807106598985,"gusset","Construction","Gusset",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400",7,3
+"18","rye-4","2364",2.28807106598985,"short-rows","Construction","Short rows",40131,"Worsted (9 wpi)","Rye",4.72689768976898,"2424",<chr>,"2013/09/01 00:00:00 -0400",4,3
+"19","kitty-ankle-socks","428",3.21261682242991,"ribbed","Fabric / Stitches","Ribbed / ribbing",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500",7,4
+"20","kitty-ankle-socks","428",3.21261682242991,"toe-up","Sock Method","Toe up",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500",2,4
+"21","kitty-ankle-socks","428",3.21261682242991,"short-row-heel","Heel","Short row heel",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500",2,4
+"22","kitty-ankle-socks","428",3.21261682242991,"short-rows","Construction","Short rows",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500",4,4
+"23","kitty-ankle-socks","428",3.21261682242991,"Intarsia","Colorwork","Intarsia",33753,"Fingering (14 wpi)","Kitty Ankle Socks",4.41149425287356,"435",<chr>,"2016/12/30 17:18:04 -0500",1,4
+"24","simple-skyp-socks","2953",2.35489332881815,"top-cuff-down","Sock Method","Top cuff down",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500",18,5
+"25","simple-skyp-socks","2953",2.35489332881815,"in-the-round","Construction","Worked in the round",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500",13,5
+"26","simple-skyp-socks","2953",2.35489332881815,"heel-flap","Heel","Heel flap",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500",15,5
+"27","simple-skyp-socks","2953",2.35489332881815,"ribbed","Fabric / Stitches","Ribbed / ribbing",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500",7,5
+"28","simple-skyp-socks","2953",2.35489332881815,"textured","Fabric / Stitches","Textured",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500",8,5
+"29","simple-skyp-socks","2953",2.35489332881815,"wide-toe","Toe","Wide toe",33096,"Sport (12 wpi)","Simple Skyp Socks",4.65657584931046,"2973",<chr>,"2009/02/01 00:00:00 -0500",3,5
+"30","vanilla-latte-socks","3671",2.2111141378371,"top-cuff-down","Sock Method","Top cuff down",30578,"Fingering (14 wpi)","Vanilla Latte Socks",4.68955538016311,"3801",<chr>,"2012/04/21 16:39:49 -0400",18,6
+"31","vanilla-latte-socks","3671",2.2111141378371,"heel-flap","Heel","Heel flap",30578,"Fingering (14 wpi)","Vanilla Latte Socks",4.68955538016311,"3801",<chr>,"2012/04/21 16:39:49 -0400",15,6
+"32","rose-city-rollers","2804",2.20542082738944,"top-cuff-down","Sock Method","Top cuff down",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400",18,7
+"33","rose-city-rollers","2804",2.20542082738944,"in-the-round","Construction","Worked in the round",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400",13,7
+"34","rose-city-rollers","2804",2.20542082738944,"heel-flap","Heel","Heel flap",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400",15,7
+"35","rose-city-rollers","2804",2.20542082738944,"kitchener","Construction","Kitchener / Grafting",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400",9,7
+"36","rose-city-rollers","2804",2.20542082738944,"gusset","Construction","Gusset",30309,"Fingering (14 wpi)","Rose City Rollers",4.80694070080863,"2968",<chr>,"2015/05/16 13:27:58 -0400",7,7
+"37","monkey-socks","8359",3.07620528771384,"top-cuff-down","Sock Method","Top cuff down",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500",18,8
+"38","monkey-socks","8359",3.07620528771384,"in-the-round","Construction","Worked in the round",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500",13,8
+"39","monkey-socks","8359",3.07620528771384,"heel-flap","Heel","Heel flap",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500",15,8
+"40","monkey-socks","8359",3.07620528771384,"kitchener","Construction","Kitchener / Grafting",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500",9,8
+"41","monkey-socks","8359",3.07620528771384,"one-piece","Construction","One-piece",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500",4,8
+"42","monkey-socks","8359",3.07620528771384,"lace","Fabric / Stitches","Lace",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500",1,8
+"43","monkey-socks","8359",3.07620528771384,"textured","Fabric / Stitches","Textured",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500",8,8
+"44","monkey-socks","8359",3.07620528771384,"wide-toe","Toe","Wide toe",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500",3,8
+"45","monkey-socks","8359",3.07620528771384,"eyelets","Fabric / Stitches","Eyelets",28356,"Light Fingering","Monkey Socks",4.56443780351139,"8031",<chr>,"2006/12/01 00:00:00 -0500",1,8
+"46","rye-light","1348",2.48293768545994,"top-cuff-down","Sock Method","Top cuff down",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",18,9
+"47","rye-light","1348",2.48293768545994,"in-the-round","Construction","Worked in the round",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",13,9
+"48","rye-light","1348",2.48293768545994,"heel-flap","Heel","Heel flap",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",15,9
+"49","rye-light","1348",2.48293768545994,"ribbed","Fabric / Stitches","Ribbed / ribbing",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",7,9
+"50","rye-light","1348",2.48293768545994,"seamless","Construction","Seamless",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",5,9
+"51","rye-light","1348",2.48293768545994,"kitchener","Construction","Kitchener / Grafting",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",9,9
+"52","rye-light","1348",2.48293768545994,"one-piece","Construction","One-piece",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",4,9
+"53","rye-light","1348",2.48293768545994,"textured","Fabric / Stitches","Textured",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",8,9
+"54","rye-light","1348",2.48293768545994,"gusset","Construction","Gusset",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",7,9
+"55","rye-light","1348",2.48293768545994,"short-rows","Construction","Short rows",27170,"Fingering (14 wpi)","Rye Light",4.8232359230221,"1403",<chr>,"2018/12/01 00:00:00 -0500",4,9
+"56","vanilla-is-the-new-black","860",2.60813953488372,"top-cuff-down","Sock Method","Top cuff down",24380,"Fingering (14 wpi)","Vanilla is the New Black",4.70704845814978,"908",<chr>,"2016/02/24 20:10:36 -0500",18,10
+"57","vanilla-is-the-new-black","860",2.60813953488372,"other-toe","Toe","Other toe",24380,"Fingering (14 wpi)","Vanilla is the New Black",4.70704845814978,"908",<chr>,"2016/02/24 20:10:36 -0500",2,10
+"58","vanilla-is-the-new-black","860",2.60813953488372,"other-heel","Heel","Other heel",24380,"Fingering (14 wpi)","Vanilla is the New Black",4.70704845814978,"908",<chr>,"2016/02/24 20:10:36 -0500",1,10
+"59","vanilla-is-the-new-black","860",2.60813953488372,"reversible","Fabric / Stitches","Reversible",24380,"Fingering (14 wpi)","Vanilla is the New Black",4.70704845814978,"908",<chr>,"2016/02/24 20:10:36 -0500",1,10
+"60","my-cup-of-tea-socks","936",3.0758547008547,"top-cuff-down","Sock Method","Top cuff down",23455,"Fingering (14 wpi)","My Cup of Tea Socks",4.60061919504644,"969",<chr>,"2012/12/10 20:03:20 -0500",18,11
+"61","my-cup-of-tea-socks","936",3.0758547008547,"in-the-round","Construction","Worked in the round",23455,"Fingering (14 wpi)","My Cup of Tea Socks",4.60061919504644,"969",<chr>,"2012/12/10 20:03:20 -0500",13,11
+"62","my-cup-of-tea-socks","936",3.0758547008547,"heel-flap","Heel","Heel flap",23455,"Fingering (14 wpi)","My Cup of Tea Socks",4.60061919504644,"969",<chr>,"2012/12/10 20:03:20 -0500",15,11
+"63","my-cup-of-tea-socks","936",3.0758547008547,"kitchener","Construction","Kitchener / Grafting",23455,"Fingering (14 wpi)","My Cup of Tea Socks",4.60061919504644,"969",<chr>,"2012/12/10 20:03:20 -0500",9,11
+"64","blueberry-waffle-socks","1807",2.02268954067515,"top-cuff-down","Sock Method","Top cuff down",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500",18,12
+"65","blueberry-waffle-socks","1807",2.02268954067515,"in-the-round","Construction","Worked in the round",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500",13,12
+"66","blueberry-waffle-socks","1807",2.02268954067515,"heel-flap","Heel","Heel flap",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500",15,12
+"67","blueberry-waffle-socks","1807",2.02268954067515,"ribbed","Fabric / Stitches","Ribbed / ribbing",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500",7,12
+"68","blueberry-waffle-socks","1807",2.02268954067515,"textured","Fabric / Stitches","Textured",23410,"DK (11 wpi)","Blueberry Waffle Socks",4.57900552486188,"1810",<chr>,"1998/11/01 00:00:00 -0500",8,12
+"69","skew","2026",4.46199407699901,"in-the-round","Construction","Worked in the round",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500",13,13
+"70","skew","2026",4.46199407699901,"toe-up","Sock Method","Toe up",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500",2,13
+"71","skew","2026",4.46199407699901,"kitchener","Construction","Kitchener / Grafting",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500",9,13
+"72","skew","2026",4.46199407699901,"short-rows","Construction","Short rows",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500",4,13
+"73","skew","2026",4.46199407699901,"bias","Construction","Bias",22482,"Fingering (14 wpi)","Skew",4.44193061840121,"1989",<chr>,"2010/02/11 12:07:46 -0500",1,13
+"74","im-so-basic-socks","600",2.395,"top-cuff-down","Sock Method","Top cuff down",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400",18,14
+"75","im-so-basic-socks","600",2.395,"in-the-round","Construction","Worked in the round",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400",13,14
+"76","im-so-basic-socks","600",2.395,"heel-flap","Heel","Heel flap",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400",15,14
+"77","im-so-basic-socks","600",2.395,"seamless","Construction","Seamless",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400",5,14
+"78","im-so-basic-socks","600",2.395,"kitchener","Construction","Kitchener / Grafting",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400",9,14
+"79","im-so-basic-socks","600",2.395,"one-piece","Construction","One-piece",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400",4,14
+"80","im-so-basic-socks","600",2.395,"gusset","Construction","Gusset",22167,"Light Fingering","I'm So Basic Socks",4.86,"650",<chr>,"2020/08/27 15:45:30 -0400",7,14
+"81","basic-ribbed-socks","2847",2.43238496663154,"top-cuff-down","Sock Method","Top cuff down",21657,"Fingering (14 wpi)","Basic Ribbed Socks",4.47961092405537,"2673",<chr>,"2006/04/01 00:00:00 -0500",18,15
+"82","basic-ribbed-socks","2847",2.43238496663154,"in-the-round","Construction","Worked in the round",21657,"Fingering (14 wpi)","Basic Ribbed Socks",4.47961092405537,"2673",<chr>,"2006/04/01 00:00:00 -0500",13,15
+"83","basic-ribbed-socks","2847",2.43238496663154,"heel-flap","Heel","Heel flap",21657,"Fingering (14 wpi)","Basic Ribbed Socks",4.47961092405537,"2673",<chr>,"2006/04/01 00:00:00 -0500",15,15
+"84","basic-ribbed-socks","2847",2.43238496663154,"ribbed","Fabric / Stitches","Ribbed / ribbing",21657,"Fingering (14 wpi)","Basic Ribbed Socks",4.47961092405537,"2673",<chr>,"2006/04/01 00:00:00 -0500",7,15
+"85","business-casual","979",3.23799795709908,"top-cuff-down","Sock Method","Top cuff down",21279,"Fingering (14 wpi)","Business Casual",4.56987115956392,"1009",<chr>,"2011/12/20 17:12:31 -0500",18,16
+"86","business-casual","979",3.23799795709908,"heel-flap","Heel","Heel flap",21279,"Fingering (14 wpi)","Business Casual",4.56987115956392,"1009",<chr>,"2011/12/20 17:12:31 -0500",15,16
+"87","business-casual","979",3.23799795709908,"cables","Fabric / Stitches","Cables",21279,"Fingering (14 wpi)","Business Casual",4.56987115956392,"1009",<chr>,"2011/12/20 17:12:31 -0500",2,16
+"88","color-palette-socks-2","276",2.3731884057971,"top-cuff-down","Sock Method","Top cuff down",21128,"Light Fingering","Color Palette Socks",4.85526315789474,"304",<chr>,"2020/11/12 08:30:57 -0500",18,17
+"89","color-palette-socks-2","276",2.3731884057971,"short-row-heel","Heel","Short row heel",21128,"Light Fingering","Color Palette Socks",4.85526315789474,"304",<chr>,"2020/11/12 08:30:57 -0500",2,17
+"90","color-palette-socks-2","276",2.3731884057971,"gusset","Construction","Gusset",21128,"Light Fingering","Color Palette Socks",4.85526315789474,"304",<chr>,"2020/11/12 08:30:57 -0500",7,17
+"91","color-palette-socks-2","276",2.3731884057971,"stripes-colorwork","Colorwork","Stripes / Colorwork",21128,"Light Fingering","Color Palette Socks",4.85526315789474,"304",<chr>,"2020/11/12 08:30:57 -0500",2,17
+"92","owlie-socks","826",3.82929782082324,"top-cuff-down","Sock Method","Top cuff down",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500",18,18
+"93","owlie-socks","826",3.82929782082324,"in-the-round","Construction","Worked in the round",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500",13,18
+"94","owlie-socks","826",3.82929782082324,"heel-flap","Heel","Heel flap",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500",15,18
+"95","owlie-socks","826",3.82929782082324,"ribbed","Fabric / Stitches","Ribbed / ribbing",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500",7,18
+"96","owlie-socks","826",3.82929782082324,"kitchener","Construction","Kitchener / Grafting",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500",9,18
+"97","owlie-socks","826",3.82929782082324,"cables","Fabric / Stitches","Cables",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500",2,18
+"98","owlie-socks","826",3.82929782082324,"gusset","Construction","Gusset",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500",7,18
+"99","owlie-socks","826",3.82929782082324,"twisted-stitches","Fabric / Stitches","Twisted stitches",21031,"Fingering (14 wpi)","Owlie Socks",4.51127819548872,"798",<chr>,"2011/01/18 22:46:59 -0500",1,18
+"100","petty-harbour","1392",2.32758620689655,"top-cuff-down","Sock Method","Top cuff down",21019,"Fingering (14 wpi)","Petty Harbour",4.71890372452565,"1423",<chr>,"2014/09/11 23:53:17 -0400",18,19
+"101","petty-harbour","1392",2.32758620689655,"in-the-round","Construction","Worked in the round",21019,"Fingering (14 wpi)","Petty Harbour",4.71890372452565,"1423",<chr>,"2014/09/11 23:53:17 -0400",13,19
+"102","petty-harbour","1392",2.32758620689655,"heel-flap","Heel","Heel flap",21019,"Fingering (14 wpi)","Petty Harbour",4.71890372452565,"1423",<chr>,"2014/09/11 23:53:17 -0400",15,19
+"103","petty-harbour","1392",2.32758620689655,"textured","Fabric / Stitches","Textured",21019,"Fingering (14 wpi)","Petty Harbour",4.71890372452565,"1423",<chr>,"2014/09/11 23:53:17 -0400",8,19
+"104","how-i-make-my-socks","1153",2.40242844752819,"top-cuff-down","Sock Method","Top cuff down",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,"",18,20
+"105","how-i-make-my-socks","1153",2.40242844752819,"in-the-round","Construction","Worked in the round",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,"",13,20
+"106","how-i-make-my-socks","1153",2.40242844752819,"heel-flap","Heel","Heel flap",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,"",15,20
+"107","how-i-make-my-socks","1153",2.40242844752819,"seamless","Construction","Seamless",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,"",5,20
+"108","how-i-make-my-socks","1153",2.40242844752819,"kitchener","Construction","Kitchener / Grafting",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,"",9,20
+"109","how-i-make-my-socks","1153",2.40242844752819,"one-piece","Construction","One-piece",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,"",4,20
+"110","how-i-make-my-socks","1153",2.40242844752819,"gusset","Construction","Gusset",20638,"Fingering (14 wpi)","How I Make My Socks",4.7715996578272,"1169",<chr>,"",7,20

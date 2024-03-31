@@ -1,14 +1,12 @@
 <script>
-	// @ts-nocheck
-
 	import { onMount } from 'svelte';
 	import { csv } from 'd3-fetch';
 	import * as d3 from 'd3';
 
 	import { ALL_COLORS, DARK_GRAY } from './constants.js';
 
-	const container_width = 1000;
-	const container_height = 1000;
+	const container_width = 800;
+	const container_height = 800;
 	const margin = { top: 200, right: 100, bottom: 30, left: 200 };
 	const width = container_width - margin.left - margin.right;
 	const height = container_height - margin.top - margin.bottom;
@@ -30,12 +28,13 @@
 				.select('.domain')
 				.attr('opacity', '0.5');
 
-			d3.select(gx)
-				.selectAll('.tick text')
-				.attr('transform', 'rotate(-45)')
-				.style('text-anchor', 'start')
-				.attr('dy', '0.4em')
-				.attr('dx', '0.7em');
+			// d3.select(gx)
+			// 	.selectAll('.tick text')
+			// 	.attr('transform', 'rotate(-45)')
+			// 	.style('text-anchor', 'start')
+			// 	.attr('dy', '0.4em')
+			// 	.attr('dx', '0.7em');
+			d3.select(gx).selectAll('.tick line').remove();
 		}
 	}
 
@@ -46,17 +45,24 @@
 				.select('.domain')
 				.attr('opacity', '0.5');
 		}
+
+		d3.select(gy).selectAll('.tick line').remove();
 	}
+
+	$: activeColumn = 1;
+	$: hoverColumn = null;
 
 	const axisStyle = `font-size: 1em; color: ${DARK_GRAY}; font-family: 'Helvetica'; font-weight: normal`;
 
 	onMount(async () => {
 		data = await csv(
 			'/data/top_20_profiles.csv',
-			({ name, tags, category }, i) => ({
+			({ name, tags, category, order_no, tag_freq }, i) => ({
 				category,
-				title: name,
+				title: order_no,
 				tag: tags,
+				order: +order_no,
+				tag_freq,
 			}),
 		);
 		renderChart();
@@ -64,14 +70,19 @@
 
 	let renderChart = () => {
 		if (data != []) {
-			console.log(ALL_COLORS);
+			data.sort((a, b) => b.tag_freq - a.tag_freq);
 
 			const titles = data.map((d) => d.title);
-			const titleLabels = data.map((d) => d.position);
 			const tags = data.map((d) => d.tag);
 
+			titles.sort((a, b) => {
+				return (
+					data.find((item) => item.title === a).order -
+					data.find((item) => item.title === b).order
+				);
+			});
+
 			xScale = d3.scaleBand().domain(titles).range([0, width]);
-			// xScale = d3.scaleBand().domain(titleLabels).range([0, width]);
 			yScale = d3.scaleBand().domain(tags).range([0, height]);
 
 			const colorArray = Object.entries(ALL_COLORS).map(
@@ -93,14 +104,27 @@
 	>
 		{#if data.length > 0}
 			{#each data as d}
+				<!-- svelte-ignore a11y-no-static-element-interactions -->
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				<rect
 					x={xScale(d.title) + margin.left}
 					y={yScale(d.tag) + margin.top}
 					width={xScale.bandwidth()}
 					height={yScale.bandwidth()}
 					fill={colorScale(d.category)}
+					on:click={() => {
+						console.log('click', d.title);
+						console.log('xscale', xScale(d.title));
+						activeColumn = d.order;
+					}}
+					on:mouseenter={() => {
+						console.log('hover', d.title);
+						hoverColumn = d.order;
+					}}
 				/>
 			{/each}
+
+			<!-- Draw grid -->
 			{#each yScale.domain() as tickY}
 				<line
 					x1={margin.left}
@@ -119,22 +143,59 @@
 					style="stroke: {DARK_GRAY}; stroke-width: 1px;"
 				/>
 			{/each}
+
+			<g
+				class="x-axis"
+				transform={`translate(${margin.left}, ${margin.top})`}
+				bind:this={gx}
+				style={axisStyle}
+			></g>
+			<g
+				class="y-axis"
+				transform={`translate(${margin.left}, ${margin.top})`}
+				bind:this={gy}
+				style={axisStyle}
+			>
+			</g>
+			<!-- Hover over item -->
+			<!-- svelte-ignore a11y-no-static-element-interactions -->
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			{#if hoverColumn !== null}
+				<rect
+					x={xScale(xScale.domain()[hoverColumn - 1]) + margin.left}
+					y={margin.top}
+					width={xScale.bandwidth()}
+					height={height}
+					fill="white"
+					opacity="0.2"
+					on:click={() => {
+						activeColumn = hoverColumn;
+					}}
+					class="hover-item"
+				/>
+			{/if}
+			<!-- Highlight clicked item -->
+			{#if activeColumn !== null && activeColumn >= 0}
+				<rect
+					x={xScale(xScale.domain()[activeColumn - 1]) + margin.left}
+					y={margin.top}
+					width={xScale.bandwidth()}
+					fill="none"
+					height={height}
+					stroke={DARK_GRAY}
+					stroke-width="5px"
+					class="active-item"
+				/>
+			{/if}
 		{/if}
-		<g
-			class="x-axis"
-			transform={`translate(${margin.left}, ${margin.top})`}
-			bind:this={gx}
-			style={axisStyle}
-		></g>
-		<g
-			class="y-axis"
-			transform={`translate(${margin.left}, ${margin.top})`}
-			bind:this={gy}
-			style={axisStyle}
-		>
-		</g>
 	</svg>
 {/if}
 
 <style>
+	.active-item {
+		transition: 300ms ease-out;
+	}
+	.hover-item {
+		transition: 50ms ease-in;
+	}
 </style>
