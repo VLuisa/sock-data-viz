@@ -1,13 +1,15 @@
 <script>
+	// @ts-nocheck
 	import { onMount } from 'svelte';
 	import { csv } from 'd3-fetch';
 	import * as d3 from 'd3';
 
 	import { ALL_COLORS, DARK_GRAY } from './constants.js';
+	import MatrixDetail from './MatrixDetail.svelte';
 
 	const container_width = 800;
 	const container_height = 800;
-	const margin = { top: 200, right: 100, bottom: 30, left: 200 };
+	const margin = { top: 40, right: 10, bottom: 0, left: 150 };
 	const width = container_width - margin.left - margin.right;
 	const height = container_height - margin.top - margin.bottom;
 
@@ -28,12 +30,6 @@
 				.select('.domain')
 				.attr('opacity', '0.5');
 
-			// d3.select(gx)
-			// 	.selectAll('.tick text')
-			// 	.attr('transform', 'rotate(-45)')
-			// 	.style('text-anchor', 'start')
-			// 	.attr('dy', '0.4em')
-			// 	.attr('dx', '0.7em');
 			d3.select(gx).selectAll('.tick line').remove();
 		}
 	}
@@ -50,19 +46,37 @@
 	}
 
 	$: activeColumn = 1;
-	$: hoverColumn = null;
+	$: hoverColumn = 1;
 
 	const axisStyle = `font-size: 1em; color: ${DARK_GRAY}; font-family: 'Helvetica'; font-weight: normal`;
 
 	onMount(async () => {
 		data = await csv(
 			'/data/top_20_profiles.csv',
-			({ name, tags, category, order_no, tag_freq }, i) => ({
+			(
+				{
+					name,
+					tags,
+					category,
+					order_no,
+					tag_freq,
+					difficulty_average,
+					rating_average,
+					yarn_weight_description,
+					permalink,
+				},
+				i,
+			) => ({
 				category,
 				title: order_no,
 				tag: tags,
-				order: +order_no,
 				tag_freq,
+				name,
+				order: +order_no,
+				difficulty: difficulty_average,
+				rating: rating_average,
+				yarn: yarn_weight_description,
+				permalink,
 			}),
 		);
 		renderChart();
@@ -98,97 +112,103 @@
 </script>
 
 {#if data.length > 0}
-	<svg
-		width={container_width}
-		height={container_height}
-	>
-		{#if data.length > 0}
-			{#each data as d}
+	<div class="matrix-chart">
+		<svg
+			width={container_width}
+			height={container_height}
+		>
+			{#if data.length > 0}
+				{#each data as d}
+					<!-- svelte-ignore a11y-no-static-element-interactions -->
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<rect
+						x={xScale(d.title) + margin.left}
+						y={yScale(d.tag) + margin.top}
+						width={xScale.bandwidth()}
+						height={yScale.bandwidth()}
+						fill={colorScale(d.category)}
+						on:click={() => {
+							console.log('click', d.title);
+							console.log('xscale', xScale(d.title));
+							activeColumn = d.order;
+						}}
+						on:mouseenter={() => {
+							console.log('hover', d.title);
+							hoverColumn = d.order;
+						}}
+					/>
+				{/each}
+
+				<!-- Draw grid -->
+				{#each yScale.domain() as tickY}
+					<line
+						x1={margin.left}
+						x2={width + margin.left}
+						y1={yScale(tickY) + yScale.bandwidth() + margin.top}
+						y2={yScale(tickY) + yScale.bandwidth() + margin.top}
+						style="stroke: {DARK_GRAY}; stroke-width: 1px;"
+					/>
+				{/each}
+				{#each xScale.domain() as tickX}
+					<line
+						x1={xScale(tickX) + xScale.bandwidth() + margin.left}
+						x2={xScale(tickX) + xScale.bandwidth() + margin.left}
+						y1={margin.top}
+						y2={height + margin.top}
+						style="stroke: {DARK_GRAY}; stroke-width: 1px;"
+					/>
+				{/each}
+
+				<g
+					class="x-axis"
+					transform={`translate(${margin.left}, ${margin.top})`}
+					bind:this={gx}
+					style={axisStyle}
+				></g>
+				<g
+					class="y-axis"
+					transform={`translate(${margin.left}, ${margin.top})`}
+					bind:this={gy}
+					style={axisStyle}
+				>
+				</g>
+				<!-- Hover over item -->
 				<!-- svelte-ignore a11y-no-static-element-interactions -->
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
-				<rect
-					x={xScale(d.title) + margin.left}
-					y={yScale(d.tag) + margin.top}
-					width={xScale.bandwidth()}
-					height={yScale.bandwidth()}
-					fill={colorScale(d.category)}
-					on:click={() => {
-						console.log('click', d.title);
-						console.log('xscale', xScale(d.title));
-						activeColumn = d.order;
-					}}
-					on:mouseenter={() => {
-						console.log('hover', d.title);
-						hoverColumn = d.order;
-					}}
-				/>
-			{/each}
-
-			<!-- Draw grid -->
-			{#each yScale.domain() as tickY}
-				<line
-					x1={margin.left}
-					x2={width + margin.left}
-					y1={yScale(tickY) + yScale.bandwidth() + margin.top}
-					y2={yScale(tickY) + yScale.bandwidth() + margin.top}
-					style="stroke: {DARK_GRAY}; stroke-width: 1px;"
-				/>
-			{/each}
-			{#each xScale.domain() as tickX}
-				<line
-					x1={xScale(tickX) + xScale.bandwidth() + margin.left}
-					x2={xScale(tickX) + xScale.bandwidth() + margin.left}
-					y1={margin.top}
-					y2={height + margin.top}
-					style="stroke: {DARK_GRAY}; stroke-width: 1px;"
-				/>
-			{/each}
-
-			<g
-				class="x-axis"
-				transform={`translate(${margin.left}, ${margin.top})`}
-				bind:this={gx}
-				style={axisStyle}
-			></g>
-			<g
-				class="y-axis"
-				transform={`translate(${margin.left}, ${margin.top})`}
-				bind:this={gy}
-				style={axisStyle}
-			>
-			</g>
-			<!-- Hover over item -->
-			<!-- svelte-ignore a11y-no-static-element-interactions -->
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			{#if hoverColumn !== null}
-				<rect
-					x={xScale(xScale.domain()[hoverColumn - 1]) + margin.left}
-					y={margin.top}
-					width={xScale.bandwidth()}
-					height={height}
-					fill="white"
-					opacity="0.2"
-					on:click={() => {
-						activeColumn = hoverColumn;
-					}}
-					class="hover-item"
-				/>
+				{#if hoverColumn !== null}
+					<rect
+						x={xScale(xScale.domain()[hoverColumn - 1]) + margin.left}
+						y={margin.top}
+						width={xScale.bandwidth()}
+						height={height}
+						fill="white"
+						opacity="0.2"
+						on:click={() => {
+							activeColumn = hoverColumn;
+						}}
+						class="hover-item"
+					/>
+				{/if}
+				<!-- Highlight clicked item -->
+				{#if activeColumn !== null && activeColumn >= 0}
+					<rect
+						x={xScale(xScale.domain()[activeColumn - 1]) + margin.left}
+						y={margin.top}
+						width={xScale.bandwidth()}
+						fill="none"
+						height={height}
+						stroke={DARK_GRAY}
+						stroke-width="5px"
+						class="active-item"
+					/>
+				{/if}
 			{/if}
-			<!-- Highlight clicked item -->
-			{#if activeColumn !== null && activeColumn >= 0}
-				<rect
-					x={xScale(xScale.domain()[activeColumn - 1]) + margin.left}
-					y={margin.top}
-					width={xScale.bandwidth()}
-					fill="none"
-					height={height}
-					stroke={DARK_GRAY}
-					stroke-width="5px"
-					class="active-item"
-				/>
-			{/if}
-		{/if}
-	</svg>
+		</svg>
+		<MatrixDetail
+			order={activeColumn}
+			data={data}
+		/>
+	</div>
 {/if}
 
 <style>
@@ -197,5 +217,10 @@
 	}
 	.hover-item {
 		transition: 50ms ease-in;
+	}
+
+	.matrix-chart {
+		display: flex;
+		flex-flow: row nowrap;
 	}
 </style>

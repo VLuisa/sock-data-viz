@@ -3,12 +3,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 :root {
   --white: #fef9ef;
   --black: #181818;
+  --lightgray: #D6D2CB;
+  --darkgray: #7F7B74;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  line-height: 2em;
 }
 
 html, body {
@@ -17,5 +20,18 @@ html, body {
 
 body {
   background-color: var(--white);
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+h6 {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: smaller;
+  color: var(--darkgray);
+  letter-spacing: 0.1em;
 }
 
