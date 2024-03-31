@@ -46,7 +46,7 @@
 	}
 
 	$: activeColumn = 1;
-	$: hoverColumn = 1;
+	$: hoverColumn = -1;
 
 	const axisStyle = `font-size: 1em; color: ${DARK_GRAY}; font-family: 'Helvetica'; font-weight: normal`;
 
