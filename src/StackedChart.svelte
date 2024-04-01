@@ -26,8 +26,8 @@
 		}
 	}
 
-	const container_width = 1000;
-	const container_height = 600;
+	const container_width = 700;
+	const container_height = 400;
 
 	const margin = { top: 20, right: 150, bottom: 30, left: 60 };
 	const width = container_width - margin.left - margin.right;
@@ -158,6 +158,13 @@
 	};
 </script>
 
+<div class="matrix-title">
+	<h6>What are the most popular tags over time?</h6>
+	<h1>Popular sock techniques over the years</h1>
+	<div class="spacer-small" />
+	<h5>Click the tabs to see tag trends in different categories.</h5>
+	<div class="spacer-small" />
+</div>
 <div class="chart-container">
 	<div
 		class="tab-container"
@@ -235,7 +242,7 @@
 	.tab-container {
 		display: flex;
 		justify-content: stretch;
-		width: 1000px; /* should match container width */
+		width: 600px; /* should match container width */
 	}
 
 	button {
@@ -258,6 +265,7 @@
 		font-size: 16px;
 		position: relative;
 		width: 100%;
+		line-height: 0.9em;
 	}
 
 	.active {

@@ -38,7 +38,7 @@
 
 <div class="pattern-summary">
 	<h6>Pattern No. {order}</h6>
-	<h1>{pattern.name}</h1>
+	<h3 style="font-weight: bold">{pattern.name}</h3>
 	<span class="summary-tile"
 		>Difficulty average<PositionDisplay
 			difficulty={pattern.difficulty}
@@ -55,10 +55,12 @@
 		src={img}
 		alt="Current pattern"
 	/>
-	<a
-		href={permalinkFront + pattern.permalink}
-		target="_blank">Open in Ravelry</a
-	>
+	<div>
+		<a
+			href={permalinkFront + pattern.permalink}
+			target="_blank">Open in Ravelry</a
+		>
+	</div>
 </div>
 
 <style>
@@ -82,7 +84,11 @@
 		color: var(--darkgray);
 	}
 	img {
-		width: 100%;
+		width: 80%;
+		justify-self: center;
 		margin-top: 20px;
+	}
+	a {
+		color: var(--darkgray);
 	}
 </style>
