@@ -221,6 +221,12 @@
 			/>
 		</div>
 	{/if}
+	<!-- svelte-ignore a11y-missing-attribute -->
+	<object
+		type="image/svg+xml"
+		data="img/matrix-legend.svg"
+		alt="matrix legend"
+	></object>
 </div>
 
 <style>
@@ -237,5 +243,11 @@
 	.matrix-chart {
 		display: flex;
 		flex-flow: row nowrap;
+	}
+
+	object {
+		max-height: 60px;
+		margin-left: 200px;
+		margin-top: 20px;
 	}
 </style>
