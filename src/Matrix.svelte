@@ -112,6 +112,7 @@
 </script>
 
 <div class="matrix-title">
+	<h6>Which tags are used in popular patterns?</h6>
 	<h1>Top 20 Patterns</h1>
 	<!-- <p>
             The most popular patterns tend to be knit from the cuff down to the toe and
