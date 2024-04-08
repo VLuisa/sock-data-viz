@@ -167,13 +167,19 @@
 	<div class="story">
 		<h1>The wonderful world of Sock Knitting</h1>
 		<p>
-			If you're thinking of getting started with sock knitting, it's important
-			to know that, just as there are many different types of needles, and sock
-			directions, there are many different ways to approach each part of a sock.
+			Many of the sock knitting fears we examined earlier were based on the
+			misconception that there was just one way to do something, and that that
+			particular method was scary.
 		</p>
 		<p>
-			If you try one way and don't like it, there are lots of options to make a
-			better knitting experience or create a better fitting sock.
+			Knowing what is available can make it easier to pick a new path when you
+			hit a dead end, and different techniques can really change both the
+			knitting experience and the final fit of the socks.
+		</p>
+		<p>
+			It's important to know that, just as there are many different types of
+			needles, and sock directions, there are many different ways to approach
+			each part of a sock.
 		</p>
 		<p>
 			Pattern creators use #tags on Ravelry to help make it easier to find their
@@ -183,14 +189,10 @@
 		<StackedChart />
 		<div class="spacer-medium" />
 		<p>
-			As a recent beginner, I can relate to the fact that so many options could
-			be intimidating. But many of the sock knitting fears we examined earlier
-			were based on the misconception that there was just one way to do
-			something, and that that particular method was scary.
-		</p>
-		<p>
-			Knowing what is available can make it easier to pick a new path when you
-			hit a dead end.
+			If you're considering making your first pair of socks, beginning with
+			well-known sock methods like a heel flap and gusset can be a great choice.
+			Mastering this technique opens the door to thousands of other patterns for
+			you to explore.
 		</p>
 	</div>
 	<div class="story">
