@@ -110,3 +110,11 @@ blockquote {
   margin-top: -0.1em;
   margin-bottom: 1em;
 }
+
+a {
+  color: var(--pink)
+}
+
+a:visited {
+  color: var(--darkgray);
+}

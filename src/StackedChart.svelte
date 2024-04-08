@@ -160,7 +160,7 @@
 
 <div class="matrix-title">
 	<h6>What are the most popular tags over time?</h6>
-	<h1>Popular sock techniques over the years</h1>
+	<h2>Popular sock techniques over the years</h2>
 	<div class="spacer-small" />
 	<h5>Click the tabs to see tag trends in different categories.</h5>
 	<div class="spacer-small" />
@@ -220,6 +220,14 @@
 		{/if}
 		<MiniSockImage category={selectedCategory} />
 	</div>
+	<div class="spacer-medium" />
+	<p class="footnote">
+		Note: Some patterns use more than one technique (e.g. a pattern may be
+		marked with both a "heel flap" and "short row" heel). From my digging this
+		tended to be used when the pattern author was leaving it up to the reader to
+		create the heel of their choice. More rarely, it meant they explained
+		multiple heel types in the pattern.
+	</p>
 </div>
 
 <style>
