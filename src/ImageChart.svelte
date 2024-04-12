@@ -4,6 +4,11 @@
 	export let description = '';
 	export let footnote = '';
 	export let makeWide = false;
+
+	$: {
+		console.log(title);
+		console.log(makeWide);
+	}
 </script>
 
 <div class="story">
@@ -19,7 +24,7 @@
         <source srcset="flowers.jpg"> -->
 	<img
 		src={imgurl}
-		alt="Dot plot showing that heel tags are not the most difficult"
+		alt={description}
 		style="width:auto;"
 	/>
 </picture>

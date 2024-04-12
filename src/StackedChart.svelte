@@ -159,8 +159,12 @@
 </script>
 
 <div class="matrix-title">
-	<h6>What are the most popular tags over time?</h6>
-	<h2>Popular sock techniques over the years</h2>
+	<h2>What can go into knitting a sock?</h2>
+	<p>
+		Explore the most popular sock techniques over the years. See trends of the
+		most popular parts of a sock. Maybe find a new technique to try for your
+		first (or next) pair of socks.
+	</p>
 	<div class="spacer-small" />
 	<h5>Click the tabs to see tag trends in different categories.</h5>
 	<div class="spacer-small" />
