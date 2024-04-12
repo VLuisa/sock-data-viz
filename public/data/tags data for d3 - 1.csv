@@ -1,0 +1,331 @@
+category,year,tags,clean_name,tag_count,total_tag
+Colorwork,2013,Intarsia,Intarsia,46,401
+Colorwork,2013,corrugated-ribbing,Corrugated ribbing,21,233
+Colorwork,2013,mosaic,Mosaic,22,668
+Colorwork,2013,other-colorwork,Other colorwork,36,747
+Colorwork,2013,stranded,Stranded,270,6380
+Colorwork,2013,stripes-colorwork,Stripes / Colorwork,187,4287
+Colorwork,2014,Intarsia,Intarsia,40,401
+Colorwork,2014,corrugated-ribbing,Corrugated ribbing,30,233
+Colorwork,2014,mosaic,Mosaic,19,668
+Colorwork,2014,other-colorwork,Other colorwork,50,747
+Colorwork,2014,stranded,Stranded,331,6380
+Colorwork,2014,stripes-colorwork,Stripes / Colorwork,231,4287
+Colorwork,2015,Intarsia,Intarsia,26,401
+Colorwork,2015,corrugated-ribbing,Corrugated ribbing,27,233
+Colorwork,2015,mosaic,Mosaic,21,668
+Colorwork,2015,other-colorwork,Other colorwork,41,747
+Colorwork,2015,stranded,Stranded,353,6380
+Colorwork,2015,stripes-colorwork,Stripes / Colorwork,242,4287
+Colorwork,2016,Intarsia,Intarsia,23,401
+Colorwork,2016,corrugated-ribbing,Corrugated ribbing,18,233
+Colorwork,2016,mosaic,Mosaic,27,668
+Colorwork,2016,other-colorwork,Other colorwork,46,747
+Colorwork,2016,stranded,Stranded,341,6380
+Colorwork,2016,stripes-colorwork,Stripes / Colorwork,316,4287
+Colorwork,2017,Intarsia,Intarsia,48,401
+Colorwork,2017,corrugated-ribbing,Corrugated ribbing,28,233
+Colorwork,2017,mosaic,Mosaic,45,668
+Colorwork,2017,other-colorwork,Other colorwork,51,747
+Colorwork,2017,stranded,Stranded,518,6380
+Colorwork,2017,stripes-colorwork,Stripes / Colorwork,350,4287
+Colorwork,2018,Intarsia,Intarsia,41,401
+Colorwork,2018,corrugated-ribbing,Corrugated ribbing,16,233
+Colorwork,2018,mosaic,Mosaic,62,668
+Colorwork,2018,other-colorwork,Other colorwork,73,747
+Colorwork,2018,stranded,Stranded,538,6380
+Colorwork,2018,stripes-colorwork,Stripes / Colorwork,389,4287
+Colorwork,2019,Intarsia,Intarsia,28,401
+Colorwork,2019,corrugated-ribbing,Corrugated ribbing,17,233
+Colorwork,2019,mosaic,Mosaic,96,668
+Colorwork,2019,other-colorwork,Other colorwork,92,747
+Colorwork,2019,stranded,Stranded,612,6380
+Colorwork,2019,stripes-colorwork,Stripes / Colorwork,395,4287
+Colorwork,2020,Intarsia,Intarsia,33,401
+Colorwork,2020,corrugated-ribbing,Corrugated ribbing,16,233
+Colorwork,2020,mosaic,Mosaic,70,668
+Colorwork,2020,other-colorwork,Other colorwork,137,747
+Colorwork,2020,stranded,Stranded,775,6380
+Colorwork,2020,stripes-colorwork,Stripes / Colorwork,471,4287
+Colorwork,2021,Intarsia,Intarsia,43,401
+Colorwork,2021,corrugated-ribbing,Corrugated ribbing,16,233
+Colorwork,2021,mosaic,Mosaic,99,668
+Colorwork,2021,other-colorwork,Other colorwork,77,747
+Colorwork,2021,stranded,Stranded,812,6380
+Colorwork,2021,stripes-colorwork,Stripes / Colorwork,611,4287
+Colorwork,2022,Intarsia,Intarsia,33,401
+Colorwork,2022,corrugated-ribbing,Corrugated ribbing,27,233
+Colorwork,2022,mosaic,Mosaic,106,668
+Colorwork,2022,other-colorwork,Other colorwork,60,747
+Colorwork,2022,stranded,Stranded,947,6380
+Colorwork,2022,stripes-colorwork,Stripes / Colorwork,555,4287
+Colorwork,2023,Intarsia,Intarsia,40,401
+Colorwork,2023,corrugated-ribbing,Corrugated ribbing,17,233
+Colorwork,2023,mosaic,Mosaic,101,668
+Colorwork,2023,other-colorwork,Other colorwork,84,747
+Colorwork,2023,stranded,Stranded,883,6380
+Colorwork,2023,stripes-colorwork,Stripes / Colorwork,540,4287
+Fabric / Stitches,2013,bobble-or-popcorn,Bobble / popcorn,26,579
+Fabric / Stitches,2014,bobble-or-popcorn,Bobble / popcorn,22,579
+Fabric / Stitches,2015,bobble-or-popcorn,Bobble / popcorn,26,579
+Fabric / Stitches,2016,bobble-or-popcorn,Bobble / popcorn,17,579
+Fabric / Stitches,2017,bobble-or-popcorn,Bobble / popcorn,28,579
+Fabric / Stitches,2018,bobble-or-popcorn,Bobble / popcorn,38,579
+Fabric / Stitches,2019,bobble-or-popcorn,Bobble / popcorn,63,579
+Fabric / Stitches,2020,bobble-or-popcorn,Bobble / popcorn,95,579
+Fabric / Stitches,2021,bobble-or-popcorn,Bobble / popcorn,106,579
+Fabric / Stitches,2022,bobble-or-popcorn,Bobble / popcorn,90,579
+Fabric / Stitches,2023,bobble-or-popcorn,Bobble / popcorn,68,579
+Fabric / Stitches,2013,eyelets,Eyelets,154,2140
+Fabric / Stitches,2014,eyelets,Eyelets,129,2140
+Fabric / Stitches,2015,eyelets,Eyelets,180,2140
+Fabric / Stitches,2016,eyelets,Eyelets,165,2140
+Fabric / Stitches,2017,eyelets,Eyelets,202,2140
+Fabric / Stitches,2018,eyelets,Eyelets,210,2140
+Fabric / Stitches,2019,eyelets,Eyelets,211,2140
+Fabric / Stitches,2020,eyelets,Eyelets,244,2140
+Fabric / Stitches,2021,eyelets,Eyelets,265,2140
+Fabric / Stitches,2022,eyelets,Eyelets,210,2140
+Fabric / Stitches,2023,eyelets,Eyelets,170,2140
+Fabric / Stitches,2013,slipped-stitches,Slipped stitches,139,2607
+Fabric / Stitches,2014,slipped-stitches,Slipped stitches,144,2607
+Fabric / Stitches,2015,slipped-stitches,Slipped stitches,160,2607
+Fabric / Stitches,2016,slipped-stitches,Slipped stitches,188,2607
+Fabric / Stitches,2017,slipped-stitches,Slipped stitches,209,2607
+Fabric / Stitches,2018,slipped-stitches,Slipped stitches,287,2607
+Fabric / Stitches,2019,slipped-stitches,Slipped stitches,308,2607
+Fabric / Stitches,2020,slipped-stitches,Slipped stitches,321,2607
+Fabric / Stitches,2021,slipped-stitches,Slipped stitches,324,2607
+Fabric / Stitches,2022,slipped-stitches,Slipped stitches,289,2607
+Fabric / Stitches,2023,slipped-stitches,Slipped stitches,238,2607
+Fabric / Stitches,2013,twisted-stitches,Twisted stitches,263,2837
+Fabric / Stitches,2014,twisted-stitches,Twisted stitches,217,2837
+Fabric / Stitches,2015,twisted-stitches,Twisted stitches,235,2837
+Fabric / Stitches,2016,twisted-stitches,Twisted stitches,187,2837
+Fabric / Stitches,2017,twisted-stitches,Twisted stitches,217,2837
+Fabric / Stitches,2018,twisted-stitches,Twisted stitches,245,2837
+Fabric / Stitches,2019,twisted-stitches,Twisted stitches,249,2837
+Fabric / Stitches,2020,twisted-stitches,Twisted stitches,345,2837
+Fabric / Stitches,2021,twisted-stitches,Twisted stitches,357,2837
+Fabric / Stitches,2022,twisted-stitches,Twisted stitches,283,2837
+Fabric / Stitches,2023,twisted-stitches,Twisted stitches,239,2837
+Fabric / Stitches,2013,lace,Lace,469,5531
+Fabric / Stitches,2014,lace,Lace,423,5531
+Fabric / Stitches,2015,lace,Lace,489,5531
+Fabric / Stitches,2016,lace,Lace,446,5531
+Fabric / Stitches,2017,lace,Lace,488,5531
+Fabric / Stitches,2018,lace,Lace,527,5531
+Fabric / Stitches,2019,lace,Lace,506,5531
+Fabric / Stitches,2020,lace,Lace,660,5531
+Fabric / Stitches,2021,lace,Lace,645,5531
+Fabric / Stitches,2022,lace,Lace,508,5531
+Fabric / Stitches,2023,lace,Lace,370,5531
+Fabric / Stitches,2013,textured,Textured,340,5646
+Fabric / Stitches,2014,textured,Textured,360,5646
+Fabric / Stitches,2015,textured,Textured,366,5646
+Fabric / Stitches,2016,textured,Textured,375,5646
+Fabric / Stitches,2017,textured,Textured,496,5646
+Fabric / Stitches,2018,textured,Textured,551,5646
+Fabric / Stitches,2019,textured,Textured,622,5646
+Fabric / Stitches,2020,textured,Textured,714,5646
+Fabric / Stitches,2021,textured,Textured,720,5646
+Fabric / Stitches,2022,textured,Textured,621,5646
+Fabric / Stitches,2023,textured,Textured,481,5646
+Fabric / Stitches,2013,cables,Cables,567,6358
+Fabric / Stitches,2014,cables,Cables,524,6358
+Fabric / Stitches,2015,cables,Cables,559,6358
+Fabric / Stitches,2016,cables,Cables,544,6358
+Fabric / Stitches,2017,cables,Cables,522,6358
+Fabric / Stitches,2018,cables,Cables,618,6358
+Fabric / Stitches,2019,cables,Cables,601,6358
+Fabric / Stitches,2020,cables,Cables,687,6358
+Fabric / Stitches,2021,cables,Cables,675,6358
+Fabric / Stitches,2022,cables,Cables,551,6358
+Fabric / Stitches,2023,cables,Cables,510,6358
+Fabric / Stitches,2013,ribbed,Ribbed / ribbing,609,7846
+Fabric / Stitches,2014,ribbed,Ribbed / ribbing,558,7846
+Fabric / Stitches,2015,ribbed,Ribbed / ribbing,603,7846
+Fabric / Stitches,2016,ribbed,Ribbed / ribbing,544,7846
+Fabric / Stitches,2017,ribbed,Ribbed / ribbing,702,7846
+Fabric / Stitches,2018,ribbed,Ribbed / ribbing,739,7846
+Fabric / Stitches,2019,ribbed,Ribbed / ribbing,750,7846
+Fabric / Stitches,2020,ribbed,Ribbed / ribbing,906,7846
+Fabric / Stitches,2021,ribbed,Ribbed / ribbing,977,7846
+Fabric / Stitches,2022,ribbed,Ribbed / ribbing,784,7846
+Fabric / Stitches,2023,ribbed,Ribbed / ribbing,674,7846
+Heel,2013,afterthought-heel,Afterthought heel,83,1905
+Heel,2013,dutch-heel,Dutch heel,87,1006
+Heel,2013,heel-flap,Heel flap,1077,14871
+Heel,2013,other-heel,Other heel,172,2422
+Heel,2013,short-row-heel,Short row heel,397,6673
+Heel,2014,afterthought-heel,Afterthought heel,75,1905
+Heel,2014,dutch-heel,Dutch heel,51,1006
+Heel,2014,heel-flap,Heel flap,1018,14871
+Heel,2014,other-heel,Other heel,203,2422
+Heel,2014,short-row-heel,Short row heel,383,6673
+Heel,2015,afterthought-heel,Afterthought heel,108,1905
+Heel,2015,dutch-heel,Dutch heel,36,1006
+Heel,2015,heel-flap,Heel flap,1066,14871
+Heel,2015,other-heel,Other heel,199,2422
+Heel,2015,short-row-heel,Short row heel,355,6673
+Heel,2016,afterthought-heel,Afterthought heel,121,1905
+Heel,2016,dutch-heel,Dutch heel,50,1006
+Heel,2016,heel-flap,Heel flap,1043,14871
+Heel,2016,other-heel,Other heel,159,2422
+Heel,2016,short-row-heel,Short row heel,428,6673
+Heel,2017,afterthought-heel,Afterthought heel,164,1905
+Heel,2017,dutch-heel,Dutch heel,102,1006
+Heel,2017,heel-flap,Heel flap,1160,14871
+Heel,2017,other-heel,Other heel,192,2422
+Heel,2017,short-row-heel,Short row heel,620,6673
+Heel,2018,afterthought-heel,Afterthought heel,189,1905
+Heel,2018,dutch-heel,Dutch heel,101,1006
+Heel,2018,heel-flap,Heel flap,1355,14871
+Heel,2018,other-heel,Other heel,189,2422
+Heel,2018,short-row-heel,Short row heel,648,6673
+Heel,2019,afterthought-heel,Afterthought heel,204,1905
+Heel,2019,dutch-heel,Dutch heel,113,1006
+Heel,2019,heel-flap,Heel flap,1360,14871
+Heel,2019,other-heel,Other heel,209,2422
+Heel,2019,short-row-heel,Short row heel,648,6673
+Heel,2020,afterthought-heel,Afterthought heel,216,1905
+Heel,2020,dutch-heel,Dutch heel,102,1006
+Heel,2020,heel-flap,Heel flap,1792,14871
+Heel,2020,other-heel,Other heel,308,2422
+Heel,2020,short-row-heel,Short row heel,818,6673
+Heel,2021,afterthought-heel,Afterthought heel,297,1905
+Heel,2021,dutch-heel,Dutch heel,141,1006
+Heel,2021,heel-flap,Heel flap,1785,14871
+Heel,2021,other-heel,Other heel,282,2422
+Heel,2021,short-row-heel,Short row heel,835,6673
+Heel,2022,afterthought-heel,Afterthought heel,262,1905
+Heel,2022,dutch-heel,Dutch heel,118,1006
+Heel,2022,heel-flap,Heel flap,1592,14871
+Heel,2022,other-heel,Other heel,282,2422
+Heel,2022,short-row-heel,Short row heel,794,6673
+Heel,2023,afterthought-heel,Afterthought heel,186,1905
+Heel,2023,dutch-heel,Dutch heel,105,1006
+Heel,2023,heel-flap,Heel flap,1623,14871
+Heel,2023,other-heel,Other heel,227,2422
+Heel,2023,short-row-heel,Short row heel,747,6673
+Sock Method,2013,2-at-a-time,Two at a time,58,935
+Sock Method,2013,noshaping,No shaping,65,1140
+Sock Method,2013,seamed-sock,Seamed sock,48,231
+Sock Method,2013,shaped-arches,Shaped arches,43,585
+Sock Method,2013,start-in-middle,Starting in middle,8,120
+Sock Method,2013,toe-up,Toe up,497,8390
+Sock Method,2013,top-cuff-down,Top cuff down,1678,23415
+Sock Method,2014,2-at-a-time,Two at a time,73,935
+Sock Method,2014,noshaping,No shaping,82,1140
+Sock Method,2014,seamed-sock,Seamed sock,12,231
+Sock Method,2014,shaped-arches,Shaped arches,33,585
+Sock Method,2014,start-in-middle,Starting in middle,10,120
+Sock Method,2014,toe-up,Toe up,636,8390
+Sock Method,2014,top-cuff-down,Top cuff down,1522,23415
+Sock Method,2015,2-at-a-time,Two at a time,93,935
+Sock Method,2015,noshaping,No shaping,62,1140
+Sock Method,2015,seamed-sock,Seamed sock,14,231
+Sock Method,2015,shaped-arches,Shaped arches,35,585
+Sock Method,2015,start-in-middle,Starting in middle,6,120
+Sock Method,2015,toe-up,Toe up,576,8390
+Sock Method,2015,top-cuff-down,Top cuff down,1558,23415
+Sock Method,2016,2-at-a-time,Two at a time,115,935
+Sock Method,2016,noshaping,No shaping,89,1140
+Sock Method,2016,seamed-sock,Seamed sock,17,231
+Sock Method,2016,shaped-arches,Shaped arches,51,585
+Sock Method,2016,start-in-middle,Starting in middle,13,120
+Sock Method,2016,toe-up,Toe up,594,8390
+Sock Method,2016,top-cuff-down,Top cuff down,1586,23415
+Sock Method,2017,2-at-a-time,Two at a time,96,935
+Sock Method,2017,noshaping,No shaping,87,1140
+Sock Method,2017,seamed-sock,Seamed sock,13,231
+Sock Method,2017,shaped-arches,Shaped arches,55,585
+Sock Method,2017,start-in-middle,Starting in middle,5,120
+Sock Method,2017,toe-up,Toe up,793,8390
+Sock Method,2017,top-cuff-down,Top cuff down,1857,23415
+Sock Method,2018,2-at-a-time,Two at a time,96,935
+Sock Method,2018,noshaping,No shaping,108,1140
+Sock Method,2018,seamed-sock,Seamed sock,23,231
+Sock Method,2018,shaped-arches,Shaped arches,56,585
+Sock Method,2018,start-in-middle,Starting in middle,9,120
+Sock Method,2018,toe-up,Toe up,841,8390
+Sock Method,2018,top-cuff-down,Top cuff down,2147,23415
+Sock Method,2019,2-at-a-time,Two at a time,86,935
+Sock Method,2019,noshaping,No shaping,113,1140
+Sock Method,2019,seamed-sock,Seamed sock,17,231
+Sock Method,2019,shaped-arches,Shaped arches,54,585
+Sock Method,2019,start-in-middle,Starting in middle,11,120
+Sock Method,2019,toe-up,Toe up,830,8390
+Sock Method,2019,top-cuff-down,Top cuff down,2097,23415
+Sock Method,2020,2-at-a-time,Two at a time,99,935
+Sock Method,2020,noshaping,No shaping,129,1140
+Sock Method,2020,seamed-sock,Seamed sock,23,231
+Sock Method,2020,shaped-arches,Shaped arches,86,585
+Sock Method,2020,start-in-middle,Starting in middle,15,120
+Sock Method,2020,toe-up,Toe up,1028,8390
+Sock Method,2020,top-cuff-down,Top cuff down,2734,23415
+Sock Method,2021,2-at-a-time,Two at a time,91,935
+Sock Method,2021,noshaping,No shaping,164,1140
+Sock Method,2021,seamed-sock,Seamed sock,22,231
+Sock Method,2021,shaped-arches,Shaped arches,67,585
+Sock Method,2021,start-in-middle,Starting in middle,17,120
+Sock Method,2021,toe-up,Toe up,987,8390
+Sock Method,2021,top-cuff-down,Top cuff down,2962,23415
+Sock Method,2022,2-at-a-time,Two at a time,65,935
+Sock Method,2022,noshaping,No shaping,129,1140
+Sock Method,2022,seamed-sock,Seamed sock,22,231
+Sock Method,2022,shaped-arches,Shaped arches,60,585
+Sock Method,2022,start-in-middle,Starting in middle,17,120
+Sock Method,2022,toe-up,Toe up,871,8390
+Sock Method,2022,top-cuff-down,Top cuff down,2713,23415
+Sock Method,2023,2-at-a-time,Two at a time,63,935
+Sock Method,2023,noshaping,No shaping,112,1140
+Sock Method,2023,seamed-sock,Seamed sock,20,231
+Sock Method,2023,shaped-arches,Shaped arches,45,585
+Sock Method,2023,start-in-middle,Starting in middle,9,120
+Sock Method,2023,toe-up,Toe up,737,8390
+Sock Method,2023,top-cuff-down,Top cuff down,2561,23415
+Toe,2013,other-toe,Other toe,328,4367
+Toe,2013,short-row-toe,Short row toe,69,1015
+Toe,2013,star-toe,Star toe,49,738
+Toe,2013,wide-toe,Wide toe,177,2032
+Toe,2014,other-toe,Other toe,278,4367
+Toe,2014,short-row-toe,Short row toe,78,1015
+Toe,2014,star-toe,Star toe,43,738
+Toe,2014,wide-toe,Wide toe,131,2032
+Toe,2015,other-toe,Other toe,316,4367
+Toe,2015,short-row-toe,Short row toe,78,1015
+Toe,2015,star-toe,Star toe,47,738
+Toe,2015,wide-toe,Wide toe,153,2032
+Toe,2016,other-toe,Other toe,299,4367
+Toe,2016,short-row-toe,Short row toe,60,1015
+Toe,2016,star-toe,Star toe,49,738
+Toe,2016,wide-toe,Wide toe,111,2032
+Toe,2017,other-toe,Other toe,369,4367
+Toe,2017,short-row-toe,Short row toe,82,1015
+Toe,2017,star-toe,Star toe,45,738
+Toe,2017,wide-toe,Wide toe,132,2032
+Toe,2018,other-toe,Other toe,375,4367
+Toe,2018,short-row-toe,Short row toe,113,1015
+Toe,2018,star-toe,Star toe,63,738
+Toe,2018,wide-toe,Wide toe,190,2032
+Toe,2019,other-toe,Other toe,361,4367
+Toe,2019,short-row-toe,Short row toe,87,1015
+Toe,2019,star-toe,Star toe,94,738
+Toe,2019,wide-toe,Wide toe,183,2032
+Toe,2020,other-toe,Other toe,515,4367
+Toe,2020,short-row-toe,Short row toe,139,1015
+Toe,2020,star-toe,Star toe,84,738
+Toe,2020,wide-toe,Wide toe,222,2032
+Toe,2021,other-toe,Other toe,580,4367
+Toe,2021,short-row-toe,Short row toe,127,1015
+Toe,2021,star-toe,Star toe,99,738
+Toe,2021,wide-toe,Wide toe,267,2032
+Toe,2022,other-toe,Other toe,512,4367
+Toe,2022,short-row-toe,Short row toe,93,1015
+Toe,2022,star-toe,Star toe,78,738
+Toe,2022,wide-toe,Wide toe,238,2032
+Toe,2023,other-toe,Other toe,434,4367
+Toe,2023,short-row-toe,Short row toe,89,1015
+Toe,2023,star-toe,Star toe,87,738
+Toe,2023,wide-toe,Wide toe,228,2032

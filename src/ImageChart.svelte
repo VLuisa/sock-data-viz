@@ -4,19 +4,16 @@
 	export let description = '';
 	export let footnote = '';
 	export let makeWide = false;
-
-	$: {
-		console.log(title);
-		console.log(makeWide);
-	}
 </script>
 
 <div class="story">
-	<h2>{title}</h2>
+	{#if title != ''}
+		<h2>{title}</h2>
+	{/if}
 	{#if description != ''}
 		<p>{description}</p>
+		<div class="spacer-medium" />
 	{/if}
-	<div class="spacer-medium" />
 </div>
 <picture style={makeWide ? 'max-width: 80vw !important' : 'max-width: 50vw'}>
 	<!-- <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
@@ -29,8 +26,8 @@
 	/>
 </picture>
 <div class="story">
-	<div class="spacer-medium" />
 	{#if footnote != ''}
+		<div class="spacer-medium" />
 		<p class="footnote"><strong>Note: </strong>{footnote}</p>
 	{/if}
 	<!-- <object

@@ -19,11 +19,11 @@
 			always lost interest early on.
 		</p>
 		<p>
-			I remembered my friends grandma knitting socks in the corner whenever she
+			I remembered my friend's grandma knitting socks in the corner whenever she
 			would visit, <strong
 				>but I'd always thought socks were too hard to try.</strong
-			>Last year I saw someone on Instagram make a pair of socks and I was
-			intrigued. I finally decided to give it a go and I was hooked!
+			> Last year I saw someone on Instagram make a pair of socks and I was intrigued.
+			I finally decided to give it a go and I was hooked!
 		</p>
 		<p>
 			Having a hand-knit pair of socks was deeply satisfying. The project was
@@ -32,14 +32,14 @@
 		</p>
 		<p>
 			It made me wonder why I put off knitting socks for so long. <strong
-				>Were socks really as hard as I thought?</strong
-			> How did they compare to other common knitting projects?
+				>I wondered if socks were really as hard as I thought.</strong
+			> And how did they compare to other common knitting projects?
 		</p>
 		<Separator />
 		<h1>Are Socks Hard to Knit?</h1>
 		<h2>What does the data say?</h2>
 		<p>
-			I decided to use Ravelry, a knitting and crochet site, to help answer my
+			I turned to Ravelry, a knitting and crochet site, to help answer my
 			questions. Ravelry is a pattern database and community site. Pattern
 			creators can upload patterns to the site for makers to find, and then
 			makers can document their projects on the site as well.
@@ -62,6 +62,7 @@
 			imgurl="img/ProjectsDifficulty.png"
 			description="Hats tend to be easier, with the largest number of hat patterns falling in the “Easy” category of difficulty. Interestingly, sock, shawl, and sweater patterns all concentrate at a difficulty of 3 — between “Easy” and “Medium”."
 		/>
+		<span class="spacer-medium" />
 		<p>
 			The numbers seem to say that socks aren't harder than other common
 			knitting projects. <strong
@@ -239,8 +240,8 @@
 			before I realized that
 		</p>
 		<ol type="a">
-			<li>I was knitting the sock inside out</li>
-			<li>It did not actually fit onto my foot</li>
+			<li>I was knitting the sock inside out 😬</li>
+			<li>It did not actually fit onto my foot 💀</li>
 		</ol>
 		<p>
 			So I frogged it (knitter speak for: unraveled it) and started over. Every
@@ -256,13 +257,66 @@
 		</p>
 
 		<h6>Tip 1</h6>
+		<h2>Know what motivates you</h2>
+		<p>
+			Although I knew that DK socks would work up faster, I really wanted socks
+			that felt like socks not slippers and that suited my slightly warmer
+			climate so I stuck with Fingering. This definitely took longer but left me
+			more satisfied with what I wanted.
+		</p>
+		<p>
+			Others may prefer to start with DK as a "practice" sock and move on to
+			Fingering and that's ok too!
+		</p>
+		<p>Here are a few patterns to check out if you're a beginner:</p>
+		<ul>
+			<li>
+				<strong
+					><a
+						href="https://www.ravelry.com/patterns/library/rye-sock"
+						target="_blank">Rye socks by TinCanKnits</a
+					></strong
+				>. This free sock pattern comes in various sock weights: Worsted (as the
+				thickest yarn), DK, and Fingering. The instructions also have little
+				illustrations that explain the basics of a sock structure for beginners.
+			</li>
+			<li>
+				<strong>
+					<a
+						href="https://www.ravelry.com/patterns/sources/vanilla-sock-methods-by-crazy-sock-lady/patterns"
+						target="_blank">Vanilla Sock Methods by Crazy Sock Lady</a
+					>
+				</strong>. This pattern pack contains detailed instructions for knitting
+				socks using 3 different types of needles. The accompanying YouTube
+				videos are helpful for seeing the techniques in action. There is also a
+				<a
+					href="https://www.ravelry.com/patterns/library/dk-weight-vanilla-socks"
+					target="_blank">DK weight version</a
+				> of this pattern.
+			</li>
+			<li>
+				<strong
+					><a
+						href="https://store.abramsbooks.com/products/the-sock-project"
+						target="_blank">The Sock Project by Summer Lee</a
+					></strong
+				>. If you like learning from a book, and are willing to purchase
+				patterns, you should check out this new book by Summer. She walks you
+				through 5 different "basic" socks using all sorts of heels and cuffs
+				including a toe-up sock. She then introduces you to stripes, ribbing,
+				lace, cables, and colorwork for a total of 25 patterns. All with helpful
+				tips and funny commentary throughout.
+			</li>
+		</ul>
+		<Separator type="subsection" />
+		<h6>Tip 2</h6>
 		<h2>Don't be afraid to look things up as you go</h2>
 		<p>
 			If you're a visual learner like me, YouTube will be your best friend.
 			Whenever I'd stumble on a new concept, I'd look it up with the needle type
 			I was using (e.g. "Joining in the round DPNs socks").
 		</p>
-		<ol>
+		<ul>
 			<li>
 				Denise, aka EarthtonesGirl, has a lot of great videos that cover sock
 				techniques part by part in the (aptly named) "No Fear Sock Knitting" <a
@@ -285,25 +339,14 @@
 				> by joining in the round.
 			</li>
 			<li>
-				VeryPink Knits also has a series of slow-motion videos for particular
+				VeryPinkKnits also has a series of slow-motion videos for particular
 				techniques such as <a
 					href="https://youtu.be/9dYP_GeHLG0?si=AB57k9EECTZxUDWj"
 					target="_blank">grafting the toe together.</a
 				>
 			</li>
-		</ol>
-		<h6>Tip 2</h6>
-		<h2>Know what motivates you</h2>
-		<p>
-			Although I knew that DK socks would work up faster, I really wanted socks
-			that felt like socks not slippers and that suited my slightly warmer
-			climate so I stuck with Fingering. This definitely took longer but left me
-			more satisfied with what I wanted.
-		</p>
-		<p>
-			Others may prefer to start with DK as a "practice" sock and move on to
-			Fingering and that's ok too!
-		</p>
+		</ul>
+		<Separator type="subsection" />
 		<h6>Tip 3</h6>
 		<h2>Recognize your skills</h2>
 		<p>
@@ -326,21 +369,76 @@
 				target="_blank">fun colorwork patterns</a
 			> by Stone Knits.
 		</p>
-		<h1>Final words</h1>
-		<p>Some recommended patterns...</p>
+		<Separator />
+		<h1>Give socks a try</h1>
+		<p>
+			Personally I'm excited to continue on my sock knitting journey. I have a
+			slew of different sock techniques I want to try: colorwork and toe-up
+			socks are next on my list.
+		</p>
+		<p>
+			I hope some of this sock-difficulty myth-busting might have motivated you
+			to give sock knitting a try! In a world of fast fashion and passing
+			trends, socks are here to stay. So why not take some time, slow down, and
+			learn a new skill - you'll come out the other side with a super cozy pair
+			of socks for yourself or a loved one. And maybe you'll discover a new
+			knitting passion.
+		</p>
+		<p>
+			Don't just take my word for it. In the reddit thread where I asked
+			knitters about their sock fears, plenty of knitters chimed in to say how
+			much they too love sock knitting:
+		</p>
+		<ImageChart
+			title=""
+			imgurl="img/FinalQuotes.png"
+			description=""
+		/>
+	</div>
+	<div id="methods">
+		<div class="story">
+			<h2>Methods</h2>
+
+			<p>
+				The sock pattern data was pulled from the <a
+					href="https://www.ravelry.com/api">Ravelry API</a
+				>
+				using the R package
+				<a href="https://github.com/walkerkq/ravelRy">RavelRy</a> on February 4,
+				2024. This data was analyzed in R and used to compare the difficulty of tagged
+				patterns, show tag trends over the years, compare yarn thickness to difficulty,
+				and visualize which sock methods were most common.
+			</p>
+			<p>
+				For the needles used in top patterns, I downloaded the patterns for the
+				top 20 free patterns as of March 3, 2024 and then read the patterns and
+				created a dataset based on the needles recommended in the pattern.
+			</p>
+			<p>
+				For comparing the difficulty of socks with other common knitting
+				projects I referenced the Ravelry website and filtered to only knitting
+				projects by project type and recorded the number of patterns that
+				appeared at each difficulty level. This data was gathered on April 7,
+				2024.
+			</p>
+			<p>
+				This page was built using Svelte and D3, starting with <a
+					href="https://github.com/higsch/svelte-d3-starter">this boilerplate</a
+				> by Matthias Stahl. All the static charts were made using RAWGraphs or R
+				and then designed in Figma. Illustrations were drawn in Procreate.
+			</p>
+			<p>
+				And finally, I knit two pairs of socks as gifts, the single sock to be
+				photographed for this project, and started my first colorwork sock while
+				working on this project. Waiting for R code to run is a great time to
+				sneak in some knitting.
+			</p>
+		</div>
 	</div>
 </main>
 
 <style>
-	/* Add any custom styles here */
-	main {
-		display: flex;
-		flex-flow: column nowrap;
-		align-items: center;
-	}
 	p {
-		width: 50vw;
-		/* max-width: 600px; */
 		margin-bottom: 20px;
 	}
 </style>

@@ -29,6 +29,12 @@ body {
   /* align-items: center; */
 }
 
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
 h1 {
   font-family: "Gelasio", serif;
   font-weight: bolder;
@@ -63,7 +69,11 @@ li {
   margin-bottom: 1em;
 }
 
-ol {
+li::marker {
+  color: var(--pink)
+}
+
+ol, ul {
   margin-left: 3em;
   margin-bottom: 1em;
 }
@@ -104,6 +114,21 @@ strong {
   flex-flow: column nowrap;
   align-items: left;
   max-width: 50vw;
+}
+
+#methods {
+  background-color: var(--lightgray);
+  width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+#methods p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
 }
 
 blockquote {
