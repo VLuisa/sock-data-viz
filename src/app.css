@@ -116,6 +116,15 @@ strong {
   max-width: 50vw;
 }
 
+@media screen and (max-width: 1000px) {
+  .story {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+    max-width: 80vw;
+  }
+}
+
 #methods {
   background-color: var(--lightgray);
   width: 100vw;

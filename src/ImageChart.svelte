@@ -15,14 +15,14 @@
 		<div class="spacer-medium" />
 	{/if}
 </div>
-<picture style={makeWide ? 'max-width: 80vw !important' : 'max-width: 50vw'}>
+<picture style={makeWide ? 'max-width: 80vw !important' : 'min-width: 50vw'}>
 	<!-- <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
         <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
         <source srcset="flowers.jpg"> -->
 	<img
 		src={imgurl}
 		alt={description}
-		style="width:auto;"
+		style="width: 100%;"
 	/>
 </picture>
 <div class="story">
@@ -42,5 +42,7 @@
 	} */
 	img {
 		max-width: 100%;
+		justify-self: center;
+		margin-bottom: 5vh;
 	}
 </style>

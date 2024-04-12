@@ -31,8 +31,8 @@
 	}
 
 	.subsection {
-		margin-top: 50px;
-		margin-bottom: 50px;
+		margin-top: 15px;
+		margin-bottom: 25px;
 		width: 60px;
 		height: auto;
 	}
