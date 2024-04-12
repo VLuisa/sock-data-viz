@@ -1,8 +1,21 @@
+<script>
+	export let type = 'section';
+</script>
+
 <div>
-	<img
-		src="img/decorative-swirl.png"
-		alt="decorative handdrawn swirl"
-	/>
+	{#if type === 'section'}
+		<img
+			src="img/decorative-swirl.png"
+			class="section"
+			alt="decorative handdrawn swirl"
+		/>
+	{:else if type === 'subsection'}
+		<img
+			src="img/decorative-swirl-small.png"
+			class="subsection"
+			alt="small decorative handdrawn swirl"
+		/>
+	{/if}
 </div>
 
 <style>
@@ -10,10 +23,17 @@
 		display: flex;
 		justify-content: center;
 	}
-	img {
+	.section {
 		margin-top: 50px;
 		margin-bottom: 50px;
 		width: 100px;
+		height: auto;
+	}
+
+	.subsection {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 60px;
 		height: auto;
 	}
 </style>

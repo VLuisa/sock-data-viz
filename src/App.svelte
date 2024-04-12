@@ -94,7 +94,7 @@
 		description="Many knitters fear making their first pair of socks because of the dreaded “heel turn”. But patterns tagged with advanced knitting construction, colorwork, or intricate regional / ethnic patterns are more difficult on average than patterns with other tags, which suggest that sock heels are not what make a sock pattern hard."
 		makeWide={true}
 	/>
-	<Separator />
+	<Separator type="subsection" />
 	<div class="story">
 		<h6>Fear 2</h6>
 		<ImageChart
@@ -140,7 +140,7 @@
 			socks with DPNs.
 		</p>
 	</div>
-	<Separator />
+	<Separator type="subsection" />
 	<div class="story">
 		<h6>Fear 3</h6>
 		<ImageChart
@@ -163,7 +163,7 @@
 			socks and work up much more quickly than Fingering.
 		</p>
 	</div>
-	<Separator />
+	<Separator type="subsection" />
 	<div class="story">
 		<h6>Fear 4</h6>
 		<ImageChart
