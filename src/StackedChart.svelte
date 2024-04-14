@@ -11,6 +11,10 @@
 	$: filteredData = [];
 	$: textLabels = [];
 
+	let narrowWindow = 600;
+
+	$: tickCount = container_width < narrowWindow ? 4 : 10;
+
 	$: gx = null;
 
 	$: {
@@ -32,7 +36,7 @@
 			const formatYear = d3.format('d');
 
 			d3.select(gx)
-				.call(d3.axisBottom(xScale).tickFormat(formatYear))
+				.call(d3.axisBottom(xScale).tickFormat(formatYear).ticks(tickCount))
 				.select('.domain')
 				.attr('opacity', '0');
 
@@ -43,7 +47,7 @@
 	$: container_width = 700;
 	const container_height = 400;
 
-	const margin = { top: 20, right: 140, bottom: 30, left: 20 };
+	const margin = { top: 20, right: 200, bottom: 30, left: 20 };
 	$: width = container_width - margin.left - margin.right;
 	const height = container_height - margin.top - margin.bottom;
 
@@ -175,27 +179,46 @@
 		first (or next) pair of socks.
 	</p>
 	<div class="spacer-small" />
-	<h5>Click these buttons to see tag trends in different categories.</h5>
+	{#if container_width < narrowWindow}
+		<h5>Select a different category to see tag trends over the years.</h5>
+	{:else}
+		<h5>Click these buttons to see tag trends in different categories.</h5>
+	{/if}
+
 	<div class="spacer-small" />
 </div>
 <div class="chart-container">
 	<div
 		class="tab-container"
-		style="width: {width}"
+		style="width: {container_width}"
 	>
-		{#each categories as cat}
-			<button
-				class:active={selectedCategory === cat}
+		{#if container_width < narrowWindow}
+			<select
 				style="--active-color: {COLORS[selectedCategory]};"
-				on:click={() => {
-					selectedCategory = cat;
+				bind:value={selectedCategory}
+				on:change={() => {
 					renderChart(selectedCategory);
 				}}
-				class="tab"
 			>
-				{cat}
-			</button>
-		{/each}
+				{#each categories as cat}
+					<option value={cat}>{cat}</option>
+				{/each}
+			</select>
+		{:else}
+			{#each categories as cat}
+				<button
+					class:active={selectedCategory === cat}
+					style="--active-color: {COLORS[selectedCategory]};"
+					on:click={() => {
+						selectedCategory = cat;
+						renderChart(selectedCategory);
+					}}
+					class="tab"
+				>
+					{cat}
+				</button>
+			{/each}
+		{/if}
 	</div>
 
 	<div
@@ -234,7 +257,7 @@
 				></g>
 			</svg>
 		{/if}
-		{#if container_width > 500}
+		{#if container_width > 400}
 			<MiniSockImage category={selectedCategory} />
 		{/if}
 	</div>
@@ -268,7 +291,6 @@
 	.tab-container {
 		display: flex;
 		justify-content: stretch;
-		width: 600px; /* should match container width */
 	}
 
 	button {
@@ -305,5 +327,22 @@
 		flex-flow: row nowrap;
 		flex-direction: row-reverse;
 		width: 80vw;
+	}
+
+	/* Style for dropdown */
+	select {
+		padding: 10px;
+		margin: 0 5px 5px;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+		font-size: 16px;
+		font-weight: bold;
+		color: var(--white); /* dark gray from style*/
+		border-radius: 10px;
+		transition: 0.3s ease-out;
+		width: 80vw;
+		background-color: var(--active-color);
+		border-right: 16px solid transparent;
 	}
 </style>
