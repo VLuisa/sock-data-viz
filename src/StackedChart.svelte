@@ -166,7 +166,7 @@
 		first (or next) pair of socks.
 	</p>
 	<div class="spacer-small" />
-	<h5>Click the tabs to see tag trends in different categories.</h5>
+	<h5>Click these buttons to see tag trends in different categories.</h5>
 	<div class="spacer-small" />
 </div>
 <div class="chart-container">
