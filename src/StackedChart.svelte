@@ -47,7 +47,12 @@
 	$: container_width = 700;
 	const container_height = 400;
 
-	const margin = { top: 20, right: 200, bottom: 30, left: 20 };
+	$: right_margin = container_width > narrowWindow ? 300 : 200;
+
+	let margin = { top: 20, right: 0, bottom: 30, left: 20 };
+	$: {
+		margin.right = right_margin;
+	}
 	$: width = container_width - margin.left - margin.right;
 	const height = container_height - margin.top - margin.bottom;
 
@@ -257,9 +262,10 @@
 				></g>
 			</svg>
 		{/if}
-		{#if container_width > 400}
-			<MiniSockImage category={selectedCategory} />
-		{/if}
+		<MiniSockImage
+			category={selectedCategory}
+			width={container_width < narrowWindow ? 100 : 150}
+		/>
 	</div>
 	<div class="spacer-medium" />
 	<p class="footnote">
@@ -281,6 +287,7 @@
 
 	text {
 		font-family: Helvetica, sans-serif;
+		font-size: calc(0.7em + 0.1vw);
 	}
 
 	path {
