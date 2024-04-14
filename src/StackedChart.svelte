@@ -12,7 +12,21 @@
 	$: textLabels = [];
 
 	$: gx = null;
-	$: xScale = null;
+
+	$: {
+		if (xScale) {
+			renderChart(selectedCategory);
+		}
+	}
+	$: xScale =
+		filteredData?.length > 0
+			? d3
+					.scaleLinear()
+					.domain(d3.extent(filteredData, (d) => d.year))
+					.range([0, width])
+			: null;
+
+	$: yScale = null;
 	$: {
 		if (xScale != null && gx != null) {
 			const formatYear = d3.format('d');
@@ -26,11 +40,11 @@
 		}
 	}
 
-	const container_width = 700;
+	$: container_width = 700;
 	const container_height = 400;
 
-	const margin = { top: 20, right: 150, bottom: 30, left: 60 };
-	const width = container_width - margin.left - margin.right;
+	const margin = { top: 20, right: 140, bottom: 30, left: 20 };
+	$: width = container_width - margin.left - margin.right;
 	const height = container_height - margin.top - margin.bottom;
 
 	$: categories = [
@@ -61,12 +75,7 @@
 			return;
 		}
 
-		if (filteredData.length > 0) {
-			xScale = d3
-				.scaleLinear()
-				.domain(d3.extent(filteredData, (d) => d.year))
-				.range([0, width]);
-
+		if (filteredData.length > 0 && xScale != null) {
 			const stackData = d3
 				.stack()
 				.keys(d3.union(filteredData.map((d) => d.tag)))
@@ -112,7 +121,7 @@
 				}
 			}
 
-			const yScale = d3
+			yScale = d3
 				.scaleLinear()
 				.domain([0, highestSum])
 				.nice()
@@ -150,7 +159,7 @@
 				})
 				.map(({ area }, i) => ({
 					label: area.key,
-					x: width + 65,
+					x: width + margin.left + 5,
 					y: yScale(midpoints[i]) + margin.top,
 					color: categoryColor,
 				}));
@@ -172,7 +181,7 @@
 <div class="chart-container">
 	<div
 		class="tab-container"
-		style="width: {container_width}"
+		style="width: {width}"
 	>
 		{#each categories as cat}
 			<button
@@ -189,7 +198,10 @@
 		{/each}
 	</div>
 
-	<div class="component-body">
+	<div
+		class="component-body"
+		bind:clientWidth={container_width}
+	>
 		{#if data.length > 0 && filteredData.length > 0}
 			<svg
 				width={container_width}
@@ -222,7 +234,9 @@
 				></g>
 			</svg>
 		{/if}
-		<MiniSockImage category={selectedCategory} />
+		{#if container_width > 500}
+			<MiniSockImage category={selectedCategory} />
+		{/if}
 	</div>
 	<div class="spacer-medium" />
 	<p class="footnote">
@@ -290,5 +304,6 @@
 		display: flex;
 		flex-flow: row nowrap;
 		flex-direction: row-reverse;
+		width: 80vw;
 	}
 </style>
