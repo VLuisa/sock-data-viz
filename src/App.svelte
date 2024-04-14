@@ -86,8 +86,6 @@
 		/>
 		<span class="spacer-medium" />
 		<h6>Fear 1: Debunked</h6>
-
-		<span class="spacer-medium" />
 	</div>
 	<ImageChart
 		title="Heels are not what make a sock difficult"
@@ -118,12 +116,13 @@
 		<ImageChart
 			title="Four types of needles, including DPNs, are recommended in top 20 patterns"
 			imgurl="img/NumNeedles.png"
-			description="Magic Loop comes in at a close second for the most recommended needle type in the top 20 free patterns."
+			description="While it's unsurprising that people assume Double Pointed Needles (DPNs) are the only choice, given that 13 out of the top 20 free patterns recommend them, it's worth noting that knitters have many other needle options available. Magic Loop comes in at a close second for the most recommended needle type in the top 20 free patterns."
+			makeWide={true}
 		/>
 		<ImageChart
-			title="DPNs dominate top 20 free patterns, but are not the only choice"
+			title="DPNs are popular choice in top 20 free patterns, but are not the only option"
 			imgurl="img/VerticalNeedleMatrix.png"
-			description="While it's unsurprising that people assume Double Pointed Needles (DPNs) are the only choice, given that 13 out of the top 20 free patterns recommend them, it's worth noting that knitters have many other needle options available. Take a look at the top 20 free patterns to see which needles are recommended."
+			description="Take a look at the top 20 free patterns to see which needles are recommended."
 			footnote="“No specific” means the pattern had no mention of the needle type in their instructions. If a pattern mentioned several options, like “Your choice: DPNs, Magic Loop using a 32” cable, 9” Circular.” then I included all of the listed options. For consistency in some cases, I translated “long circular” to mean “Magic Loop”."
 		/>
 		<span class="spacer-medium" />

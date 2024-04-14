@@ -55,9 +55,9 @@ h6 {
   text-transform: uppercase;
   font-family: Helvetica, sans-serif;
   font-weight: 200;
-  font-size: small;
+  font-size: medium;
   color: var(--darkgray);
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   margin-bottom: 0.5em;
 }
 
