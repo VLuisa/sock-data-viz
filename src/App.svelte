@@ -427,9 +427,9 @@
 				and then designed in Figma. Illustrations were drawn in Procreate.
 			</p>
 			<p>
-				And finally, I knit two pairs of socks as gifts, the single sock to be
-				photographed for this project, and started my first colorwork sock while
-				working on this project. Waiting for R code to run is a great time to
+				And finally, while working on this project I knit two pairs of socks as
+				gifts, the single sock to be photographed for this project, and started
+				my first colorwork sock. Waiting for R code to run is a great time to
 				sneak in some knitting.
 			</p>
 		</div>
