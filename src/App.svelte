@@ -17,10 +17,10 @@
 	<h3 id="author">By Luisa Vasquez</h3>
 	<div class="story">
 		<p>
-			I have been knitting ever since I was a kid. I've made many many scarves
-			and attempted (and abandoned) several sweaters. I'm an adventurous maker
-			but it took me years to work up the courage to try knitting a pair of
-			socks.
+			I have been knitting on and off ever since I was a kid. I've made many
+			many scarves and attempted (and abandoned) several sweaters. I'm an
+			adventurous maker but it took me years to work up the courage to try
+			knitting a pair of socks.
 		</p>
 		<p>
 			Last year I saw someone on Instagram make a pair of socks and I was
@@ -40,7 +40,7 @@
 		</p>
 		<p>
 			It made me wonder why I put off knitting socks for so long. <strong
-				>I wondered if socks were really as hard as I thought.</strong
+				>Were socks were really as hard as I thought?</strong
 			> And how did they compare to other common knitting projects?
 		</p>
 		<Separator />
