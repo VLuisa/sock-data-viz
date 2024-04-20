@@ -32,11 +32,11 @@
 		</p>
 		<p>
 			When I finally decided to give it a go I was hooked! I was surprised by
-			how much I enjoyed knitting my first pair of socks. Wearing the hand-knit
-			socks was deeply satisfying — they felt so professional compared to my
-			wonky scarves. The project was portable enough to bring with me everywhere
-			and each new piece (the cuff, the heel, the toe) gave me a new skill to
-			learn which kept me engaged.
+			how much I enjoyed knitting my first pair of socks. The project was
+			portable enough to bring with me everywhere and each new piece (the cuff,
+			the heel, the toe) gave me a new skill to learn which kept me engaged.
+			Wearing the finished hand-knit socks was deeply satisfying — they felt so
+			professional compared to my wonky childhood scarves.
 		</p>
 		<p>
 			It made me wonder why I put off knitting socks for so long. <strong
