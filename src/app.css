@@ -6,6 +6,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   --lightgray: #D6D2CB;
   --darkgray: #7F7B74;
   --pink: #F0439F;
+  --golden: #FFB629;
 }
 
 * {
@@ -116,14 +117,7 @@ strong {
   max-width: 50vw;
 }
 
-@media screen and (max-width: 1000px) {
-  .story {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: left;
-    max-width: 80vw;
-  }
-}
+
 
 #methods {
   background-color: var(--lightgray);
@@ -153,9 +147,49 @@ blockquote {
 }
 
 a {
-  color: var(--pink)
+  color: var(--darkgray)
 }
 
 a:visited {
   color: var(--darkgray);
+}
+
+#title {
+  color: var(--golden);
+  font-size: 6em;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+#subtitle {
+  color: var(--black);
+  max-width: 600px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#author {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.3em;
+  margin-bottom: 10vh;
+}
+
+i {
+  font-style: italic;
+  color: var(--pink);
+}
+
+@media screen and (max-width: 800px) {
+  .story {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+    max-width: 80vw;
+  }
+
+  #title {
+    font-size: 3em;
+  }
 }

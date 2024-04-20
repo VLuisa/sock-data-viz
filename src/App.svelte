@@ -1,34 +1,42 @@
 <script>
 	import StackedChart from './StackedChart.svelte';
-	import Matrix from './Matrix.svelte';
 	import ImageChart from './ImageChart.svelte';
 	import Separator from './Separator.svelte';
 </script>
 
-<img
-	src="img/Header-Desktop.png"
-	alt="Are socks really that hard to knit?"
-	style="width: 100%"
-/>
 <main>
+	<h1 id="title">Are socks <i>really</i><br /> that hard to knit?</h1>
+	<ImageChart
+		imgurl="img/sock-hero.png"
+		title=""
+	/>
+	<h2 id="subtitle">
+		An analysis of over 50,000 sock patterns to debunk common sock knitting
+		fears
+	</h2>
+	<h3 id="author">By Luisa Vasquez</h3>
 	<div class="story">
 		<p>
 			I have been knitting ever since I was a kid. I've made many many scarves
-			and attempted (and abandoned) several sweaters. I found scarves to be
-			great gifts but quite boring to knit. Sweaters take a long time and I
-			always lost interest early on.
+			and attempted (and abandoned) several sweaters. I'm an adventurous maker
+			but it took me years to work up the courage to try knitting a pair of
+			socks.
 		</p>
 		<p>
-			I remembered my friend's grandma knitting socks in the corner whenever she
-			would visit, <strong
-				>but I'd always thought socks were too hard to try.</strong
-			> Last year I saw someone on Instagram make a pair of socks and I was intrigued.
-			I finally decided to give it a go and I was hooked!
+			Last year I saw someone on Instagram make a pair of socks and I was
+			intrigued. I remembered my friend's grandma knitting socks in the corner
+			whenever she would visit when we were kids. She was such a pro she would
+			make them from memory and <strong
+				>I'd written socks off as too hard for me to try.</strong
+			>
 		</p>
 		<p>
-			Having a hand-knit pair of socks was deeply satisfying. The project was
-			portable enough to bring with me everywhere and each new piece (the cuff,
-			the heel, the toe) gave me a new skill to learn which kept me engaged.
+			When I finally decided to give it a go I was hooked! I was surprised by
+			how much I enjoyed knitting my first pair of socks. Wearing the hand-knit
+			socks was deeply satisfying — they felt so professional compared to my
+			wonky scarves. The project was portable enough to bring with me everywhere
+			and each new piece (the cuff, the heel, the toe) gave me a new skill to
+			learn which kept me engaged.
 		</p>
 		<p>
 			It made me wonder why I put off knitting socks for so long. <strong
@@ -72,9 +80,25 @@
 		<Separator />
 		<h1>Why are knitters afraid to knit socks?</h1>
 		<p>
-			I turned to reddit and asked some fellow knitters why (if at all) they
-			were afraid of knitting socks.
+			I turned to <a
+				href="https://www.reddit.com/r/knitting/comments/1bwfxh9/sock_knitting_myths/"
+				target="_blank">reddit</a
+			> and asked some fellow knitters why (if at all) they were afraid of knitting
+			socks.
 		</p>
+		<p>Four key <strong>fears</strong> emerged from the reddit conversation:</p>
+		<ol>
+			<li>Turning the heel</li>
+			<li>Double Pointed Needles (DPNs)</li>
+			<li>Thin Yarn</li>
+			<li>Knitting two of the same thing</li>
+		</ol>
+		<p>
+			I'm going to use data to bust those myths and show that while socks
+			definitely require some patience while learning (like any new skill), they
+			are certainly not impossible and can be a great joy.
+		</p>
+		<Separator type="subsection" />
 	</div>
 
 	<div class="story">
@@ -85,15 +109,38 @@
 			description="The general “fear” around socks usually seems to relate to the so-called “heel-turn”. The most popular replies to the question of sock fear had to do with how media portrayed socks and how those memories made sock heels seem difficult."
 		/>
 		<span class="spacer-medium" />
+		<p>
+			Ravelry uses tags to help pattern authors mark their patterns. These tags
+			mark the different sock techniques, such as the type of heel, knitting
+			direction, stitch patterns and more.
+		</p>
+		<p>
+			I used different colors when knitting this sock to show the cuff, body,
+			heel, and toe. On Ravelry, the author of this sock pattern could use tags
+			to describe the different elements of the sock.
+		</p>
+		<ImageChart
+			title=""
+			imgurl="img/SockTagsExplainer.png"
+			description=""
+		/>
+		<p>
+			To see if heels are the hardest part of a sock, I decided to look at
+			pattern tags that describe the socks to analyze which tags contribute most
+			to difficulty.
+		</p>
+
 		<h6>Fear 1: Debunked</h6>
+
+		<ImageChart
+			title="Heels are not what make a sock difficult"
+			imgurl="img/HeelDifficulty.png"
+			description="Many knitters fear making their first pair of socks because of the dreaded “heel turn”. But patterns tagged with advanced knitting construction, colorwork, or intricate regional / ethnic patterns are more difficult on average than patterns with other tags, which suggest that sock heels are not what make a sock pattern hard."
+			makeWide={true}
+		/>
+		<Separator type="subsection" />
 	</div>
-	<ImageChart
-		title="Heels are not what make a sock difficult"
-		imgurl="img/HeelDifficulty.png"
-		description="Many knitters fear making their first pair of socks because of the dreaded “heel turn”. But patterns tagged with advanced knitting construction, colorwork, or intricate regional / ethnic patterns are more difficult on average than patterns with other tags, which suggest that sock heels are not what make a sock pattern hard."
-		makeWide={true}
-	/>
-	<Separator type="subsection" />
+
 	<div class="story">
 		<h6>Fear 2</h6>
 		<ImageChart
@@ -122,7 +169,7 @@
 		<ImageChart
 			title="DPNs are popular choice in top 20 free patterns, but are not the only option"
 			imgurl="img/VerticalNeedleMatrix.png"
-			description="Take a look at the top 20 free patterns to see which needles are recommended."
+			description="Patterns list multiple needles to indicate that knitters can choose their needle type from the suggested options. Take a look at the top 20 free patterns to see which needles are mentioned by pattern authors."
 			footnote="“No specific” means the pattern had no mention of the needle type in their instructions. If a pattern mentioned several options, like “Your choice: DPNs, Magic Loop using a 32” cable, 9” Circular.” then I included all of the listed options. For consistency in some cases, I translated “long circular” to mean “Magic Loop”."
 		/>
 		<span class="spacer-medium" />
