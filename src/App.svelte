@@ -18,9 +18,9 @@
 	<div class="story">
 		<p>
 			I have been knitting on and off ever since I was a kid. I've made many
-			many scarves and attempted (and abandoned) several sweaters. I'm an
-			adventurous maker but it took me years to work up the courage to try
-			knitting a pair of socks.
+			scarves and attempted (and abandoned) several sweaters. I'm an adventurous
+			maker but it took me years to work up the courage to try knitting a pair
+			of socks.
 		</p>
 		<p>
 			Last year I saw someone on Instagram make a pair of socks and I was
