@@ -25,8 +25,8 @@
 		<p>
 			Last year I saw someone on Instagram make a pair of socks and I was
 			intrigued. I remembered my friend's grandma knitting socks in the corner
-			whenever she would visit when we were kids. She was such a pro she would
-			make them from memory and <strong
+			whenever she would visit when we were kids. She was such a pro that she
+			would make them from memory and <strong
 				>I'd written socks off as too hard for me to try.</strong
 			>
 		</p>
@@ -110,14 +110,14 @@
 		/>
 		<span class="spacer-medium" />
 		<p>
-			Ravelry uses tags to help pattern authors mark their patterns. These tags
-			mark the different sock techniques, such as the type of heel, knitting
-			direction, stitch patterns and more.
+			Ravelry uses labels to help pattern authors mark their patterns. These
+			labels mark the different sock techniques, such as the type of heel,
+			knitting direction, stitch patterns and more.
 		</p>
 		<p>
 			I used different colors when knitting this sock to show the cuff, body,
-			heel, and toe. On Ravelry, the author of this sock pattern could use tags
-			to describe the different elements of the sock.
+			heel, and toe. On Ravelry, the author of this sock pattern could use
+			labels to describe the different elements of the sock.
 		</p>
 		<ImageChart
 			title=""
@@ -126,8 +126,8 @@
 		/>
 		<p>
 			To see if heels are the hardest part of a sock, I decided to look at
-			pattern tags that describe the socks to analyze which tags contribute most
-			to difficulty.
+			pattern labels that describe the socks to analyze which labels might
+			contribute most to difficulty.
 		</p>
 
 		<h6>Fear 1: Debunked</h6>
@@ -135,7 +135,7 @@
 		<ImageChart
 			title="Heels are not what make a sock difficult"
 			imgurl="img/HeelDifficulty.png"
-			description="Many knitters fear making their first pair of socks because of the dreaded “heel turn”. But patterns tagged with advanced knitting construction, colorwork, or intricate regional / ethnic patterns are more difficult on average than patterns with other tags, which suggest that sock heels are not what make a sock pattern hard."
+			description="Many knitters fear making their first pair of socks because of the dreaded “heel turn”. But patterns tagged with advanced knitting construction, colorwork, or intricate regional / ethnic patterns are more difficult on average than patterns with other labels, which suggest that sock heels are not what make a sock pattern hard."
 			makeWide={true}
 		/>
 		<Separator type="subsection" />
@@ -253,9 +253,9 @@
 			each part of a sock.
 		</p>
 		<p>
-			Pattern creators use #tags on Ravelry to help make it easier to find their
-			patterns. By looking at the number of patterns with each tag year over
-			year we can see which sock techniques are most prolific.
+			Pattern creators use tags on Ravelry to label their patterns and make them
+			easier to find By looking at the number of patterns with each tag year
+			over year we can see which sock techniques are most prolific.
 		</p>
 		<StackedChart />
 		<div class="spacer-medium" />
@@ -297,6 +297,17 @@
 			No matter how good the pattern is, you may need some more help along the
 			way. As with any new skill, it'll take a bit to get right.
 		</p>
+		<p>
+			But the effort pays off. The data shows that sock knitters tend to be
+			overwhelmingly happy with their projects once completed.
+		</p>
+		<ImageChart
+			title="95% of knitters are very happy or happy with their sock projects"
+			imgurl="img/SockHappiness.png"
+			description="In addition to providing a database of patterns, Ravelry gives makers the option to document their projects. Knitters can rate how happy they are with their projects and most are very happy with their socks."
+			footnote="These numbers reflect the happiness of sock knitting projects. These percentages are about the same across all knitting projects."
+		/>
+		<span class="spacer-medium" />
 		<p>
 			Here are some tips from me (a pretty new sock knitter) to anyone else
 			thinking of giving it a try:
