@@ -28,19 +28,12 @@
 </picture>
 <div class="story">
 	{#if footnote != ''}
-		<div class="spacer-medium" />
+		<!-- <div class="spacer-small" /> -->
 		<p class="footnote"><strong>Note: </strong>{footnote}</p>
 	{/if}
-	<!-- <object
-		type="image/svg+xml"
-		data="img/HeelDifficulty.svg"
-	></object> -->
 </div>
 
 <style>
-	/* div {
-		max-width: 900px;
-	} */
 	img {
 		width: 100%;
 		justify-self: center;

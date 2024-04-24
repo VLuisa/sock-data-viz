@@ -304,8 +304,8 @@
 		<ImageChart
 			title="95% of knitters are very happy or happy with their sock projects"
 			imgurl="img/SockHappiness.png"
-			description="In addition to providing a database of patterns, Ravelry gives makers the option to document their projects. Knitters can rate how happy they are with their projects and most are very happy with their socks."
-			footnote="These numbers reflect the happiness of sock knitting projects. These percentages are about the same across all knitting projects."
+			description="In addition to providing a database of patterns, Ravelry gives makers the option to document their projects. Knitters can rate how happy they are with their projects and most are very happy with their socks. According to their project notes, many knitters are dissatisfied with their socks due to poor pattern instructions, disliked techniques, or undesired fit."
+			footnote="These numbers reflect the knitter's self-reported happiness on 2,186,210 sock knitting projects. These percentages are about the same across all knitting projects."
 		/>
 		<span class="spacer-medium" />
 		<p>
