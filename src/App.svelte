@@ -110,13 +110,13 @@
 		/>
 		<span class="spacer-medium" />
 		<p>
-			Ravelry uses labels to help pattern authors mark their patterns. These
-			labels mark the different sock techniques, such as the type of heel,
+			Ravelry uses labels, or tags, to help pattern authors mark their patterns.
+			These tags mark the different sock techniques, such as the type of heel,
 			knitting direction, stitch patterns and more.
 		</p>
 		<p>
 			I used different colors when knitting this sock to show the cuff, body,
-			heel, and toe. On Ravelry, the author of this sock pattern could use
+			heel, and toe. On Ravelry, the author of this sock pattern could use these
 			labels to describe the different elements of the sock.
 		</p>
 		<ImageChart
@@ -473,10 +473,10 @@
 			</p>
 			<p>
 				For comparing the difficulty of socks with other common knitting
-				projects I referenced the Ravelry website and filtered to only knitting
-				projects by project type and recorded the number of patterns that
-				appeared at each difficulty level. This data was gathered on April 7,
-				2024.
+				projects and sock project happiness I referenced the Ravelry website and
+				filtered to only knitting projects by project type and recorded the
+				number of patterns that appeared at each difficulty level. This data was
+				gathered on April 7, 2024.
 			</p>
 			<p>
 				This page was built using Svelte and D3, starting with <a
