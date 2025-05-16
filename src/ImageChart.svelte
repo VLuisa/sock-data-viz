@@ -2,6 +2,7 @@
 	export let imgurl;
 	export let title;
 	export let description = '';
+	export let altText = '';
 	export let footnote = '';
 	export let makeWide = false;
 </script>
@@ -22,7 +23,7 @@
 >
 	<img
 		src={imgurl}
-		alt={description}
+		alt={altText}
 		style="width: 100%; align-self: center;"
 	/>
 </picture>
